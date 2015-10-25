@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B633EC101BD7831800F755A0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633EC0F1BD7831800F755A0 /* CardView.swift */; };
+		B633EC121BD95EFF00F755A0 /* SimulationOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633EC111BD95EFF00F755A0 /* SimulationOptionCell.swift */; };
 		B64802711BD4301600BB641D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802701BD4301600BB641D /* AppDelegate.swift */; };
-		B64802731BD4301600BB641D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802721BD4301600BB641D /* ViewController.swift */; };
 		B64802761BD4301600BB641D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64802741BD4301600BB641D /* Main.storyboard */; };
 		B64802781BD4301600BB641D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64802771BD4301600BB641D /* Assets.xcassets */; };
 		B648027B1BD4301600BB641D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64802791BD4301600BB641D /* LaunchScreen.storyboard */; };
 		B64802861BD4301600BB641D /* My_Chem_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802851BD4301600BB641D /* My_Chem_LabTests.swift */; };
 		B64802911BD4301600BB641D /* My_Chem_LabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802901BD4301600BB641D /* My_Chem_LabUITests.swift */; };
+		B648029F1BD4A7C900BB641D /* MedalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648029E1BD4A7C900BB641D /* MedalsViewController.swift */; };
+		B64802A31BD4AC6D00BB641D /* MedalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802A21BD4AC6D00BB641D /* MedalCell.swift */; };
+		B64802A81BD4B0B500BB641D /* MedalStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802A71BD4B0B500BB641D /* MedalStruct.swift */; };
+		B64802AA1BD4BD9900BB641D /* MyLabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802A91BD4BD9900BB641D /* MyLabViewController.swift */; };
+		B64802AC1BD4BE3700BB641D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802AB1BD4BE3700BB641D /* ProfileViewController.swift */; };
+		B6AA106E1BDC647400141481 /* SubmitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA106D1BDC647400141481 /* SubmitTableViewCell.swift */; };
+		B6AA10701BDC970F00141481 /* WaitOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA106F1BDC970F00141481 /* WaitOverlayViewController.swift */; };
+		B6D0FB131BDB4C9E003AA2D5 /* SimulationInputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0FB121BDB4C9E003AA2D5 /* SimulationInputsViewController.swift */; };
+		B6D0FB151BDB529F003AA2D5 /* InputsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0FB141BDB529F003AA2D5 /* InputsTableViewCell.swift */; };
+		B6D0FB171BDB60B9003AA2D5 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0FB161BDB60B9003AA2D5 /* Simulation.swift */; };
+		B6D0FB191BDB61C2003AA2D5 /* SimulationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0FB181BDB61C2003AA2D5 /* SimulationInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B633EC0F1BD7831800F755A0 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Views/CardView.swift; sourceTree = "<group>"; };
+		B633EC111BD95EFF00F755A0 /* SimulationOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulationOptionCell.swift; path = Views/SimulationOptionCell.swift; sourceTree = "<group>"; };
 		B648026D1BD4301600BB641D /* My Chem Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Chem Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64802701BD4301600BB641D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B64802721BD4301600BB641D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B64802751BD4301600BB641D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B64802771BD4301600BB641D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B648027A1BD4301600BB641D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,17 @@
 		B648028C1BD4301600BB641D /* My Chem LabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Chem LabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64802901BD4301600BB641D /* My_Chem_LabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Chem_LabUITests.swift; sourceTree = "<group>"; };
 		B64802921BD4301700BB641D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B648029E1BD4A7C900BB641D /* MedalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedalsViewController.swift; path = ViewController/MedalsViewController.swift; sourceTree = "<group>"; };
+		B64802A21BD4AC6D00BB641D /* MedalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedalCell.swift; path = Views/MedalCell.swift; sourceTree = "<group>"; };
+		B64802A71BD4B0B500BB641D /* MedalStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedalStruct.swift; path = Model/MedalStruct.swift; sourceTree = "<group>"; };
+		B64802A91BD4BD9900BB641D /* MyLabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyLabViewController.swift; path = ViewController/MyLabViewController.swift; sourceTree = "<group>"; };
+		B64802AB1BD4BE3700BB641D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ViewController/ProfileViewController.swift; sourceTree = "<group>"; };
+		B6AA106D1BDC647400141481 /* SubmitTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitTableViewCell.swift; path = Views/SubmitTableViewCell.swift; sourceTree = "<group>"; };
+		B6AA106F1BDC970F00141481 /* WaitOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WaitOverlayViewController.swift; path = ViewController/WaitOverlayViewController.swift; sourceTree = "<group>"; };
+		B6D0FB121BDB4C9E003AA2D5 /* SimulationInputsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulationInputsViewController.swift; path = ViewController/SimulationInputsViewController.swift; sourceTree = "<group>"; };
+		B6D0FB141BDB529F003AA2D5 /* InputsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputsTableViewCell.swift; path = Views/InputsTableViewCell.swift; sourceTree = "<group>"; };
+		B6D0FB161BDB60B9003AA2D5 /* Simulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Simulation.swift; path = Model/Simulation.swift; sourceTree = "<group>"; };
+		B6D0FB181BDB61C2003AA2D5 /* SimulationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulationInfo.swift; path = Model/SimulationInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +122,10 @@
 			isa = PBXGroup;
 			children = (
 				B64802701BD4301600BB641D /* AppDelegate.swift */,
-				B64802721BD4301600BB641D /* ViewController.swift */,
 				B64802741BD4301600BB641D /* Main.storyboard */,
+				B64802A41BD4B04E00BB641D /* Model */,
+				B64802A11BD4AC4A00BB641D /* Views */,
+				B64802A01BD4AC4300BB641D /* View Controllers */,
 				B64802771BD4301600BB641D /* Assets.xcassets */,
 				B64802791BD4301600BB641D /* LaunchScreen.storyboard */,
 				B648027C1BD4301600BB641D /* Info.plist */,
@@ -123,6 +149,40 @@
 				B64802921BD4301700BB641D /* Info.plist */,
 			);
 			path = "My Chem LabUITests";
+			sourceTree = "<group>";
+		};
+		B64802A01BD4AC4300BB641D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA106F1BDC970F00141481 /* WaitOverlayViewController.swift */,
+				B6D0FB121BDB4C9E003AA2D5 /* SimulationInputsViewController.swift */,
+				B648029E1BD4A7C900BB641D /* MedalsViewController.swift */,
+				B64802A91BD4BD9900BB641D /* MyLabViewController.swift */,
+				B64802AB1BD4BE3700BB641D /* ProfileViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B64802A11BD4AC4A00BB641D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6AA106D1BDC647400141481 /* SubmitTableViewCell.swift */,
+				B633EC0F1BD7831800F755A0 /* CardView.swift */,
+				B64802A21BD4AC6D00BB641D /* MedalCell.swift */,
+				B633EC111BD95EFF00F755A0 /* SimulationOptionCell.swift */,
+				B6D0FB141BDB529F003AA2D5 /* InputsTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B64802A41BD4B04E00BB641D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B64802A71BD4B0B500BB641D /* MedalStruct.swift */,
+				B6D0FB161BDB60B9003AA2D5 /* Simulation.swift */,
+				B6D0FB181BDB61C2003AA2D5 /* SimulationInfo.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +247,7 @@
 		B64802651BD4301600BB641D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "University Of Wisconsin Parkside";
 				TargetAttributes = {
@@ -255,7 +316,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B64802731BD4301600BB641D /* ViewController.swift in Sources */,
+				B6D0FB191BDB61C2003AA2D5 /* SimulationInfo.swift in Sources */,
+				B633EC101BD7831800F755A0 /* CardView.swift in Sources */,
+				B64802AC1BD4BE3700BB641D /* ProfileViewController.swift in Sources */,
+				B6D0FB171BDB60B9003AA2D5 /* Simulation.swift in Sources */,
+				B6AA106E1BDC647400141481 /* SubmitTableViewCell.swift in Sources */,
+				B64802AA1BD4BD9900BB641D /* MyLabViewController.swift in Sources */,
+				B6D0FB131BDB4C9E003AA2D5 /* SimulationInputsViewController.swift in Sources */,
+				B633EC121BD95EFF00F755A0 /* SimulationOptionCell.swift in Sources */,
+				B64802A81BD4B0B500BB641D /* MedalStruct.swift in Sources */,
+				B648029F1BD4A7C900BB641D /* MedalsViewController.swift in Sources */,
+				B6AA10701BDC970F00141481 /* WaitOverlayViewController.swift in Sources */,
+				B64802A31BD4AC6D00BB641D /* MedalCell.swift in Sources */,
+				B6D0FB151BDB529F003AA2D5 /* InputsTableViewCell.swift in Sources */,
 				B64802711BD4301600BB641D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -385,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -396,10 +469,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "My Chem Lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.uwp.My-Chem-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -407,10 +486,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "My Chem Lab/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.uwp.My-Chem-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -481,6 +565,7 @@
 				B64802971BD4301700BB641D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B64802981BD4301700BB641D /* Build configuration list for PBXNativeTarget "My Chem LabTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +574,7 @@
 				B648029A1BD4301700BB641D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B648029B1BD4301700BB641D /* Build configuration list for PBXNativeTarget "My Chem LabUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +583,7 @@
 				B648029D1BD4301700BB641D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

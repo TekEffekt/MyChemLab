@@ -1,13 +1,312 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uLT-K3-USN">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue</string>
+        </mutableArray>
+        <mutableArray key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--My Lab-->
+        <scene sceneID="CzM-vy-I9z">
+            <objects>
+                <viewController title="My Lab" id="eaX-pu-FdB" customClass="MyLabViewController" customModule="My_Chem_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B7g-rn-pas"/>
+                        <viewControllerLayoutGuide type="bottom" id="SAO-c8-P5Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uGc-FU-DnK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0Te-R4-H9u">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="simulationOption" id="xCu-xW-IXQ" customClass="SimulationOptionCell" customModule="My_Chem_Lab" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xCu-xW-IXQ" id="jec-er-ElQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="553" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfO-Am-DSV">
+                                                    <rect key="frame" x="492" y="11" width="64" height="21"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="64" id="1Bt-HU-0G1"/>
+                                                        <constraint firstAttribute="height" constant="21" id="dZL-nh-TIt"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <color key="textColor" red="0.0" green="0.74509803919999995" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biodiesel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYU-Ff-zh6">
+                                                    <rect key="frame" x="19" y="4" width="333" height="35.5"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="333" id="8AQ-As-EaC"/>
+                                                        <constraint firstAttribute="height" constant="35.5" id="xF5-aQ-Zrm"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="YfO-Am-DSV" secondAttribute="trailing" constant="-11" id="5j1-9J-gOf"/>
+                                                <constraint firstItem="IYU-Ff-zh6" firstAttribute="leading" secondItem="jec-er-ElQ" secondAttribute="leadingMargin" constant="11" id="QFA-Jc-qZL"/>
+                                                <constraint firstItem="IYU-Ff-zh6" firstAttribute="centerY" secondItem="jec-er-ElQ" secondAttribute="centerY" id="yAE-A6-ntT"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstItem="YfO-Am-DSV" firstAttribute="centerY" secondItem="xCu-xW-IXQ" secondAttribute="centerY" id="rlE-TS-vaP"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="simulationNameLabel" destination="IYU-Ff-zh6" id="S4L-ta-bEf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="0.74509803919999995" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Te-R4-H9u" firstAttribute="top" secondItem="B7g-rn-pas" secondAttribute="bottom" id="8CE-cp-cIm"/>
+                            <constraint firstItem="SAO-c8-P5Y" firstAttribute="top" secondItem="0Te-R4-H9u" secondAttribute="bottom" id="VCD-Cj-JKd"/>
+                            <constraint firstItem="0Te-R4-H9u" firstAttribute="leading" secondItem="uGc-FU-DnK" secondAttribute="leadingMargin" constant="-20" id="mVZ-Ly-QDD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Te-R4-H9u" secondAttribute="trailing" constant="-20" id="zf3-C7-wWO"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Lab" image="Vial" id="KnT-bf-S9t"/>
+                    <navigationItem key="navigationItem" title="Choose a Simulation" id="MgA-bT-EBt"/>
+                    <connections>
+                        <outlet property="simulationOptionTableView" destination="0Te-R4-H9u" id="vFY-cK-SJ5"/>
+                        <segue destination="bEC-ZJ-3BX" kind="presentation" identifier="Show Inputs" id="Y7X-fJ-A60"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T0B-AX-gpV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2003" y="-346"/>
+        </scene>
+        <!--Wait Overlay View Controller-->
+        <scene sceneID="E8Y-b7-DM5">
+            <objects>
+                <viewController storyboardIdentifier="WaitOverlay" id="VCS-eb-Lmt" customClass="WaitOverlayViewController" customModule="My_Chem_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O8r-eb-gtL"/>
+                        <viewControllerLayoutGuide type="bottom" id="PL2-Xe-xJu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e9S-tn-Il9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Big Vial" translatesAutoresizingMaskIntoConstraints="NO" id="q98-gM-D0M">
+                                <rect key="frame" x="150" y="113" width="300" height="375"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="q98-gM-D0M" secondAttribute="height" multiplier="4:5" id="rKy-Z5-LbU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="q98-gM-D0M" firstAttribute="centerX" secondItem="e9S-tn-Il9" secondAttribute="centerX" id="XCQ-3J-IwK"/>
+                            <constraint firstItem="q98-gM-D0M" firstAttribute="width" secondItem="e9S-tn-Il9" secondAttribute="width" multiplier="0.5" id="Znn-PR-Bql"/>
+                            <constraint firstItem="q98-gM-D0M" firstAttribute="centerY" secondItem="e9S-tn-Il9" secondAttribute="centerY" id="mRI-3i-Tev"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yh2-P7-dUe">
+                        <barButtonItem key="leftBarButtonItem" title="Stop" id="71R-tl-xCF"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="vialImage" destination="q98-gM-D0M" id="kqi-rA-5eS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XiL-gx-SBk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3494" y="-1008"/>
+        </scene>
+        <!--Chose the inputs-->
+        <scene sceneID="JvQ-m0-hLT">
+            <objects>
+                <viewController id="OaM-8x-UZo" customClass="SimulationInputsViewController" customModule="My_Chem_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8gw-Hd-0EJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="CAB-1J-Geh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AkD-Ca-3Cd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="50" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Yq8-hW-F0W">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <animations/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="inputCell" id="5vv-2i-2Ea" customClass="InputsTableViewCell" customModule="My_Chem_Lab" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="113.5" width="600" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5vv-2i-2Ea" id="nqV-JI-UHV">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="49.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9m-Bs-9N6">
+                                                    <rect key="frame" x="562" y="15" width="20" height="20"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="bYl-ut-d7W"/>
+                                                        <constraint firstAttribute="width" constant="20" id="qDo-HT-nTb"/>
+                                                    </constraints>
+                                                    <state key="normal" backgroundImage="plus"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sh7-xB-W0V">
+                                                    <rect key="frame" x="18" y="14" width="20" height="20"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="Dl7-5I-yjb"/>
+                                                        <constraint firstAttribute="width" constant="20" id="snD-UQ-hvu"/>
+                                                    </constraints>
+                                                    <state key="normal" backgroundImage="minus"/>
+                                                </button>
+                                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Nu3-yx-Mqx">
+                                                    <rect key="frame" x="66" y="7" width="468" height="36.5"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="35.5" id="FJS-OE-Eka"/>
+                                                    </constraints>
+                                                    <connections>
+                                                        <action selector="inputValueChanged:" destination="5vv-2i-2Ea" eventType="valueChanged" id="2pE-Bp-hNp"/>
+                                                    </connections>
+                                                </slider>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1hS-fy-ojL">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="0.5"/>
+                                                    <animations/>
+                                                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="0.5" id="6kp-dR-Nr2"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Em0-ka-JCm">
+                                                    <rect key="frame" x="0.0" y="49" width="600" height="0.5"/>
+                                                    <animations/>
+                                                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="0.5" id="Fwj-4X-bbJ"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Em0-ka-JCm" secondAttribute="trailing" constant="-8" id="13h-vB-hnf"/>
+                                                <constraint firstItem="k9m-Bs-9N6" firstAttribute="leading" secondItem="Nu3-yx-Mqx" secondAttribute="trailing" constant="30" id="2Ff-dR-m82"/>
+                                                <constraint firstItem="Nu3-yx-Mqx" firstAttribute="leading" secondItem="Sh7-xB-W0V" secondAttribute="trailing" constant="30" id="3Nz-pw-5YY"/>
+                                                <constraint firstItem="k9m-Bs-9N6" firstAttribute="centerY" secondItem="nqV-JI-UHV" secondAttribute="centerY" id="5JQ-PC-k11"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="1hS-fy-ojL" secondAttribute="trailing" constant="-8" id="Bps-XW-Xhb"/>
+                                                <constraint firstItem="Nu3-yx-Mqx" firstAttribute="centerY" secondItem="nqV-JI-UHV" secondAttribute="centerY" id="W0J-fZ-Tqz"/>
+                                                <constraint firstItem="1hS-fy-ojL" firstAttribute="leading" secondItem="nqV-JI-UHV" secondAttribute="leadingMargin" constant="-8" id="Wty-Mz-RMb"/>
+                                                <constraint firstItem="1hS-fy-ojL" firstAttribute="top" secondItem="nqV-JI-UHV" secondAttribute="topMargin" constant="-8" id="YOE-lb-0CQ"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="k9m-Bs-9N6" secondAttribute="trailing" constant="10" id="Z0I-do-Wvu"/>
+                                                <constraint firstItem="Sh7-xB-W0V" firstAttribute="centerY" secondItem="nqV-JI-UHV" secondAttribute="centerY" id="j19-Tf-CwB"/>
+                                                <constraint firstItem="Em0-ka-JCm" firstAttribute="leading" secondItem="nqV-JI-UHV" secondAttribute="leadingMargin" constant="-8" id="qHM-OZ-IpK"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Em0-ka-JCm" secondAttribute="bottom" constant="-8" id="rrf-Gg-Zie"/>
+                                                <constraint firstItem="Sh7-xB-W0V" firstAttribute="leading" secondItem="nqV-JI-UHV" secondAttribute="leadingMargin" constant="10" id="yHU-xq-za1"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <outlet property="minusButton" destination="Sh7-xB-W0V" id="GVn-Ee-Az9"/>
+                                            <outlet property="plusButton" destination="k9m-Bs-9N6" id="5r2-vd-urU"/>
+                                            <outlet property="slider" destination="Nu3-yx-Mqx" id="M2K-Un-RMx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="submitCell" id="EHO-JF-aye" customClass="SubmitTableViewCell" customModule="My_Chem_Lab" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="163.5" width="600" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EHO-JF-aye" id="DV9-l9-aao">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="49.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPP-4f-Dfj">
+                                                    <rect key="frame" x="49" y="0.0" width="503" height="49.5"/>
+                                                    <animations/>
+                                                    <color key="backgroundColor" red="0.0" green="0.74509803919999995" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                    <state key="normal" title="Submit">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="4"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="submitPressed:" destination="EHO-JF-aye" eventType="touchUpInside" id="nqh-Zl-VJc"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="oPP-4f-Dfj" secondAttribute="trailing" constant="41" id="7nT-1Z-wmn"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="oPP-4f-Dfj" secondAttribute="bottom" constant="-8" id="DD7-ED-3DT"/>
+                                                <constraint firstItem="oPP-4f-Dfj" firstAttribute="leading" secondItem="DV9-l9-aao" secondAttribute="leadingMargin" constant="41" id="GEZ-zi-lHU"/>
+                                                <constraint firstItem="oPP-4f-Dfj" firstAttribute="top" secondItem="DV9-l9-aao" secondAttribute="topMargin" constant="-8" id="i5I-EC-eDW"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="0.74509803919999995" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yq8-hW-F0W" firstAttribute="leading" secondItem="AkD-Ca-3Cd" secondAttribute="leadingMargin" constant="-20" id="2jg-xp-ftJ"/>
+                            <constraint firstItem="CAB-1J-Geh" firstAttribute="top" secondItem="Yq8-hW-F0W" secondAttribute="bottom" id="72h-CA-bLP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yq8-hW-F0W" secondAttribute="trailing" constant="-20" id="Cws-SC-jXy"/>
+                            <constraint firstItem="Yq8-hW-F0W" firstAttribute="top" secondItem="8gw-Hd-0EJ" secondAttribute="bottom" id="caS-ts-jMu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Chose the inputs" id="154-gE-9Uz">
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="o7A-98-wpB">
+                            <connections>
+                                <action selector="closeController:" destination="OaM-8x-UZo" id="Efz-t7-zPZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="inputsTable" destination="Yq8-hW-F0W" id="IFn-SG-8Pv"/>
+                        <segue destination="VCS-eb-Lmt" kind="presentation" identifier="presentWaitOveraly" id="gXS-fx-T9g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wPv-EX-p6E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3494" y="-346"/>
+        </scene>
+        <!--Medals-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Medals" id="BYZ-38-t0r" customClass="MedalsViewController" customModule="My_Chem_Lab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +314,187 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Igk-pQ-bsB">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="31D-aJ-HUA">
+                                    <size key="itemSize" width="130" height="130"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="medalCell" id="Jf3-YT-8Xe" customClass="MedalCell" customModule="My_Chem_Lab" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="74" width="130" height="130"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beginner Chemist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sls-I0-SdG">
+                                                    <rect key="frame" x="0.0" y="106" width="130" height="21"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="130" id="m2O-Ik-c8T"/>
+                                                        <constraint firstAttribute="height" constant="21" id="nx2-s5-kj2"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medal1" translatesAutoresizingMaskIntoConstraints="NO" id="EUU-DM-Gyq">
+                                                    <rect key="frame" x="15" y="0.0" width="100" height="100"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="EUU-DM-Gyq" secondAttribute="height" multiplier="1:1" id="cFU-2b-qYC"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailingMargin" secondItem="EUU-DM-Gyq" secondAttribute="trailing" constant="7" id="4b2-y4-OKk"/>
+                                            <constraint firstItem="EUU-DM-Gyq" firstAttribute="top" secondItem="Jf3-YT-8Xe" secondAttribute="topMargin" constant="-8" id="KYs-7c-Jpw"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="Sls-I0-SdG" secondAttribute="bottom" constant="-5" id="L9N-ks-CDg"/>
+                                            <constraint firstItem="EUU-DM-Gyq" firstAttribute="centerX" secondItem="Jf3-YT-8Xe" secondAttribute="centerX" id="dBn-wC-44M"/>
+                                            <constraint firstItem="EUU-DM-Gyq" firstAttribute="leading" secondItem="Jf3-YT-8Xe" secondAttribute="leadingMargin" constant="7" id="rtv-R7-2HO"/>
+                                            <constraint firstItem="Sls-I0-SdG" firstAttribute="centerX" secondItem="Jf3-YT-8Xe" secondAttribute="centerX" id="sJb-OM-mwp"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="medalImage" destination="EUU-DM-Gyq" id="Cr0-TE-EKb"/>
+                                            <outlet property="medalTitle" destination="Sls-I0-SdG" id="ELq-g1-lPp"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="0.74509803921568629" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Igk-pQ-bsB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="2xU-MC-6VL"/>
+                            <constraint firstItem="Igk-pQ-bsB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="FJq-xz-eNJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Igk-pQ-bsB" secondAttribute="trailing" constant="-20" id="Gps-hP-cBD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Igk-pQ-bsB" secondAttribute="bottom" id="i5M-dM-iA4"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Medals" image="Medal" id="Vrf-Y8-oX8"/>
+                    <navigationItem key="navigationItem" title="Medals" id="hdy-dX-2mu">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Sod-NG-5Fq"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="medalCollectionView" destination="Igk-pQ-bsB" id="G9R-pM-tc1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2004" y="337"/>
+        </scene>
+        <!--My Profile-->
+        <scene sceneID="vsg-Jf-3wl">
+            <objects>
+                <viewController title="My Profile" id="eSm-Rt-Lcv" customClass="ProfileViewController" customModule="My_Chem_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4wI-hN-kGq"/>
+                        <viewControllerLayoutGuide type="bottom" id="nZa-jp-pfd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dq0-hs-SsL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Your Profile" image="Profile Icon" id="Rae-Hw-pIY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7M0-2s-uox" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2003" y="1033"/>
+        </scene>
+        <!--Lab-->
+        <scene sceneID="PUp-aR-GaK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uLT-K3-USN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Lab" image="Vial" id="sSH-i0-b99"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GqQ-PE-sh0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.74509803921568629" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Pf3-2W-Xe7" kind="relationship" relationship="rootViewController" id="636-rg-NzN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXd-eg-5Jb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="600" y="355"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ful-30-KZI">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Pf3-2W-Xe7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="A09-V1-zna"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="pzO-i1-fOS">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="0.74509803919999995" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.0" green="0.74509803919999995" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eaX-pu-FdB" kind="relationship" relationship="viewControllers" id="Ule-gj-Slr"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="bXh-MM-1y6"/>
+                        <segue destination="eSm-Rt-Lcv" kind="relationship" relationship="viewControllers" id="dU0-84-9YN"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iQy-Tq-EUv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1295" y="355"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hYv-aj-wzx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bEC-ZJ-3BX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1xV-59-WIZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.74509803919999995" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="OaM-8x-UZo" kind="relationship" relationship="rootViewController" id="47L-g6-XR6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gyY-yF-9j7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2776" y="-346"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Big Vial" width="512" height="512"/>
+        <image name="Medal" width="29" height="29"/>
+        <image name="Profile Icon" width="29" height="29"/>
+        <image name="Vial" width="29" height="29"/>
+        <image name="medal1" width="566" height="566"/>
+        <image name="minus" width="40" height="40"/>
+        <image name="plus" width="40" height="40"/>
+    </resources>
 </document>
