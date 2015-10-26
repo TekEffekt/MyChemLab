@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04053B5545A6B7D81821B8335090D33B /* TAOverlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AEDBAFBE4984B0F8E21F493165BBBC /* TAOverlay-dummy.m */; };
+		0AFFBB44D6589E094128FDF84F902677 /* TAOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BB895FD6AC29835C8FAEECE83DA2A1 /* TAOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FC30AC4C439E610901CD777A5187114 /* JJMaterialTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D120EB5AB2833CC7F5C7F08E296435D /* JJMaterialTextfield.m */; };
+		4F4B24AFFC6ABCB449A72BCE52DB4EDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5DBF60CDDE2520620DE464858DBCD016 /* JJMaterialTextfield.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F492E7F4CA4B548E3097FF571CEEDE0 /* JJMaterialTextfield.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E54D9158E2D3B9E55C4B560DA2B6952 /* JJMaterialTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F7D03A03D493BEDED008C5C8F0B9C7 /* JJMaterialTextField-dummy.m */; };
+		8757E2CB2573EBD6655439D7E65774C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A7D5A919DD35E1A12BE061237E353552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BB8B92CBA2B6DD1902D20C7CC3450392 /* Pods-My Chem Lab-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1836FDAFEE67BAE242E8CE070C07FD2 /* Pods-My Chem Lab-dummy.m */; };
+		DEBFD883F02C19F1B35D4F22E7AC16D4 /* TAOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 39537A45FE52C8407FA0DD6087BF61E6 /* TAOverlay.m */; };
+		EAB7722A7EC15AABD8923EACD6A8AF65 /* edit_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F1252AA79A0C59D6E75F2C1ED0770CE3 /* edit_button.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5800669E4F372E7805E5ADC5AD25B58B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DB31BF3F5776DA349DC8C9471BC44B;
+			remoteInfo = "JJMaterialTextField-JJMaterialTextField";
+		};
+		638B6CA3A7EF67434C566EDB1244CD92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 121E7065D5A5FFD0DB86AAE9E39567F8;
+			remoteInfo = TAOverlay;
+		};
+		A53048C068C330433AD67DA26AC4B840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A8D8FF8EAACA775C701B6B91D02FD8D;
+			remoteInfo = JJMaterialTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10CFA99A354F0D0BCEB34F17BC27B61D /* Pods-My Chem Lab-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-My Chem Lab-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26F7D03A03D493BEDED008C5C8F0B9C7 /* JJMaterialTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJMaterialTextField-dummy.m"; sourceTree = "<group>"; };
+		2F492E7F4CA4B548E3097FF571CEEDE0 /* JJMaterialTextfield.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JJMaterialTextfield.h; path = Pod/Classes/JJMaterialTextfield.h; sourceTree = "<group>"; };
+		36734F07688BF120BD381223DF9BD239 /* Pods-My Chem Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-My Chem Lab.release.xcconfig"; sourceTree = "<group>"; };
+		39537A45FE52C8407FA0DD6087BF61E6 /* TAOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAOverlay.m; path = TAOverlay/TAOverlay.m; sourceTree = "<group>"; };
+		3DEAD7F2F8E76F80E20893E72241EB56 /* libJJMaterialTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJJMaterialTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43AEDBAFBE4984B0F8E21F493165BBBC /* TAOverlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TAOverlay-dummy.m"; sourceTree = "<group>"; };
+		60C39FE7945629C91098F2E22402A876 /* JJMaterialTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJMaterialTextField-prefix.pch"; sourceTree = "<group>"; };
+		685C4DBD9B03C25544FCEB44591B4A24 /* Pods-My Chem Lab-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-My Chem Lab-resources.sh"; sourceTree = "<group>"; };
+		6D120EB5AB2833CC7F5C7F08E296435D /* JJMaterialTextfield.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JJMaterialTextfield.m; path = Pod/Classes/JJMaterialTextfield.m; sourceTree = "<group>"; };
+		78522D6907368E9B7F71B219F7A1E223 /* Pods-My Chem Lab-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-My Chem Lab-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A633D784892006EB4929F7E649BB400 /* TAOverlay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAOverlay.xcconfig; sourceTree = "<group>"; };
+		9AAEBA09F5E39F00E21F5202ABDC0122 /* Pods-My Chem Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-My Chem Lab.debug.xcconfig"; sourceTree = "<group>"; };
+		A0F525CDCBF3E9ED23F90EAEC9BC42CA /* Pods-My Chem Lab-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-My Chem Lab-frameworks.sh"; sourceTree = "<group>"; };
+		A1836FDAFEE67BAE242E8CE070C07FD2 /* Pods-My Chem Lab-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-My Chem Lab-dummy.m"; sourceTree = "<group>"; };
+		A6B049A996FC6712F775D102D1C7C1C4 /* TAOverlay.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TAOverlay.bundle; path = TAOverlay/TAOverlay.bundle; sourceTree = "<group>"; };
+		A7BB895FD6AC29835C8FAEECE83DA2A1 /* TAOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAOverlay.h; path = TAOverlay/TAOverlay.h; sourceTree = "<group>"; };
+		B90C0D274EA33FCCD5A86EDBDA440C8B /* libTAOverlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTAOverlay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEF25F5C42F323D564EB787EA56BEE8B /* TAOverlay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAOverlay-prefix.pch"; sourceTree = "<group>"; };
+		CD53FFDC1D14594130FD1CF1AE67D054 /* JJMaterialTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJMaterialTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B98C4268BDEE63589A1B9E133B9B9B /* libPods-My Chem Lab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-My Chem Lab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9901631A9E448E1A48531C66DEE8DFE /* JJMaterialTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJMaterialTextField.xcconfig; sourceTree = "<group>"; };
+		F1252AA79A0C59D6E75F2C1ED0770CE3 /* edit_button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = edit_button.png; path = Pod/Assets/edit_button.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072F1B5BC2516F912CAE1EC415A4632B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4B24AFFC6ABCB449A72BCE52DB4EDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1E08C09350CEA3661F8461F66AF208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8757E2CB2573EBD6655439D7E65774C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754B77069FF83F5143484DE7FDAB5DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D5A919DD35E1A12BE061237E353552 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE518599881F51A5F20C8E388CEDDC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4796E13F6E6F938C06E04071EDF5185A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1252AA79A0C59D6E75F2C1ED0770CE3 /* edit_button.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		530057443A94438C2A4BA32B7E3A2657 /* JJMaterialTextField */ = {
+			isa = PBXGroup;
+			children = (
+				2F492E7F4CA4B548E3097FF571CEEDE0 /* JJMaterialTextfield.h */,
+				6D120EB5AB2833CC7F5C7F08E296435D /* JJMaterialTextfield.m */,
+				4796E13F6E6F938C06E04071EDF5185A /* Resources */,
+				DEA8A0623BAE387B3CD4A0B0D7995652 /* Support Files */,
+			);
+			path = JJMaterialTextField;
+			sourceTree = "<group>";
+		};
+		7101A5DCD277A455AA0848E2BF02CA14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A633D784892006EB4929F7E649BB400 /* TAOverlay.xcconfig */,
+				43AEDBAFBE4984B0F8E21F493165BBBC /* TAOverlay-dummy.m */,
+				BEF25F5C42F323D564EB787EA56BEE8B /* TAOverlay-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TAOverlay";
+			sourceTree = "<group>";
+		};
+		7A9622A65A54BFD89D674DA921AA815B /* Pods-My Chem Lab */ = {
+			isa = PBXGroup;
+			children = (
+				10CFA99A354F0D0BCEB34F17BC27B61D /* Pods-My Chem Lab-acknowledgements.markdown */,
+				78522D6907368E9B7F71B219F7A1E223 /* Pods-My Chem Lab-acknowledgements.plist */,
+				A1836FDAFEE67BAE242E8CE070C07FD2 /* Pods-My Chem Lab-dummy.m */,
+				A0F525CDCBF3E9ED23F90EAEC9BC42CA /* Pods-My Chem Lab-frameworks.sh */,
+				685C4DBD9B03C25544FCEB44591B4A24 /* Pods-My Chem Lab-resources.sh */,
+				9AAEBA09F5E39F00E21F5202ABDC0122 /* Pods-My Chem Lab.debug.xcconfig */,
+				36734F07688BF120BD381223DF9BD239 /* Pods-My Chem Lab.release.xcconfig */,
+			);
+			name = "Pods-My Chem Lab";
+			path = "Target Support Files/Pods-My Chem Lab";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A7BA635CB54C0B17C48C7E9870F7F8A2 /* Pods */,
+				CF4EAA280A1450543D14BCC0A0F6C6DA /* Products */,
+				C7B9E21910EB1A1378E55FE0474BCDE6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A7BA635CB54C0B17C48C7E9870F7F8A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				530057443A94438C2A4BA32B7E3A2657 /* JJMaterialTextField */,
+				CC86F08FEFB1ED764B0874C04783F9CB /* TAOverlay */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7B9E21910EB1A1378E55FE0474BCDE6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A9622A65A54BFD89D674DA921AA815B /* Pods-My Chem Lab */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CC86F08FEFB1ED764B0874C04783F9CB /* TAOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				A7BB895FD6AC29835C8FAEECE83DA2A1 /* TAOverlay.h */,
+				39537A45FE52C8407FA0DD6087BF61E6 /* TAOverlay.m */,
+				E4B058D1E5F7CD4A0FBB8FD5496C94D9 /* Resources */,
+				7101A5DCD277A455AA0848E2BF02CA14 /* Support Files */,
+			);
+			path = TAOverlay;
+			sourceTree = "<group>";
+		};
+		CF4EAA280A1450543D14BCC0A0F6C6DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD53FFDC1D14594130FD1CF1AE67D054 /* JJMaterialTextField.bundle */,
+				3DEAD7F2F8E76F80E20893E72241EB56 /* libJJMaterialTextField.a */,
+				D9B98C4268BDEE63589A1B9E133B9B9B /* libPods-My Chem Lab.a */,
+				B90C0D274EA33FCCD5A86EDBDA440C8B /* libTAOverlay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA8A0623BAE387B3CD4A0B0D7995652 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9901631A9E448E1A48531C66DEE8DFE /* JJMaterialTextField.xcconfig */,
+				26F7D03A03D493BEDED008C5C8F0B9C7 /* JJMaterialTextField-dummy.m */,
+				60C39FE7945629C91098F2E22402A876 /* JJMaterialTextField-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JJMaterialTextField";
+			sourceTree = "<group>";
+		};
+		E4B058D1E5F7CD4A0FBB8FD5496C94D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6B049A996FC6712F775D102D1C7C1C4 /* TAOverlay.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10536A63848D3ABEDA7CC8BFE2A6DF9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFFBB44D6589E094128FDF84F902677 /* TAOverlay.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D2161E31E5928D4B93AB2F7C81AC7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBF60CDDE2520620DE464858DBCD016 /* JJMaterialTextfield.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		121E7065D5A5FFD0DB86AAE9E39567F8 /* TAOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51600B54F71E27048CE2512AD98C7467 /* Build configuration list for PBXNativeTarget "TAOverlay" */;
+			buildPhases = (
+				0058BFCCC1C1E56532D1B4CA913F36C9 /* Sources */,
+				072F1B5BC2516F912CAE1EC415A4632B /* Frameworks */,
+				10536A63848D3ABEDA7CC8BFE2A6DF9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAOverlay;
+			productName = TAOverlay;
+			productReference = B90C0D274EA33FCCD5A86EDBDA440C8B /* libTAOverlay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1A8D8FF8EAACA775C701B6B91D02FD8D /* JJMaterialTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AC74BFA7AD568D25B213CA9E6D64D3 /* Build configuration list for PBXNativeTarget "JJMaterialTextField" */;
+			buildPhases = (
+				B217E0ED02F221B488F2755A1ED5F7CD /* Sources */,
+				754B77069FF83F5143484DE7FDAB5DD0 /* Frameworks */,
+				B2D2161E31E5928D4B93AB2F7C81AC7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BA65028CD8F3B7777A2602F5759C11 /* PBXTargetDependency */,
+			);
+			name = JJMaterialTextField;
+			productName = JJMaterialTextField;
+			productReference = 3DEAD7F2F8E76F80E20893E72241EB56 /* libJJMaterialTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		70DB31BF3F5776DA349DC8C9471BC44B /* JJMaterialTextField-JJMaterialTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0492C43F73B37645228F12C9E10D89F3 /* Build configuration list for PBXNativeTarget "JJMaterialTextField-JJMaterialTextField" */;
+			buildPhases = (
+				A2EEFC08A61EEF97BED77CE34D4E867E /* Sources */,
+				EE518599881F51A5F20C8E388CEDDC8A /* Frameworks */,
+				B174FC5695AC2D4E2998468D0E4FFEDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JJMaterialTextField-JJMaterialTextField";
+			productName = "JJMaterialTextField-JJMaterialTextField";
+			productReference = CD53FFDC1D14594130FD1CF1AE67D054 /* JJMaterialTextField.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9C2D23051EC9AA6F740F8C5656C7AE5A /* Pods-My Chem Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 213D61F2E5527E0FDC93D27813F907FA /* Build configuration list for PBXNativeTarget "Pods-My Chem Lab" */;
+			buildPhases = (
+				D81C915D52171600BD60012DA0FEBCCB /* Sources */,
+				4D1E08C09350CEA3661F8461F66AF208 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6005A346A0D2351D9D0FAF99B2375EAB /* PBXTargetDependency */,
+				D7AFA25290D0A7693F2673A6F8AC0F15 /* PBXTargetDependency */,
+			);
+			name = "Pods-My Chem Lab";
+			productName = "Pods-My Chem Lab";
+			productReference = D9B98C4268BDEE63589A1B9E133B9B9B /* libPods-My Chem Lab.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CF4EAA280A1450543D14BCC0A0F6C6DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A8D8FF8EAACA775C701B6B91D02FD8D /* JJMaterialTextField */,
+				70DB31BF3F5776DA349DC8C9471BC44B /* JJMaterialTextField-JJMaterialTextField */,
+				9C2D23051EC9AA6F740F8C5656C7AE5A /* Pods-My Chem Lab */,
+				121E7065D5A5FFD0DB86AAE9E39567F8 /* TAOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B174FC5695AC2D4E2998468D0E4FFEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB7722A7EC15AABD8923EACD6A8AF65 /* edit_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0058BFCCC1C1E56532D1B4CA913F36C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04053B5545A6B7D81821B8335090D33B /* TAOverlay-dummy.m in Sources */,
+				DEBFD883F02C19F1B35D4F22E7AC16D4 /* TAOverlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EEFC08A61EEF97BED77CE34D4E867E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B217E0ED02F221B488F2755A1ED5F7CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E54D9158E2D3B9E55C4B560DA2B6952 /* JJMaterialTextField-dummy.m in Sources */,
+				0FC30AC4C439E610901CD777A5187114 /* JJMaterialTextfield.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81C915D52171600BD60012DA0FEBCCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8B92CBA2B6DD1902D20C7CC3450392 /* Pods-My Chem Lab-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26BA65028CD8F3B7777A2602F5759C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JJMaterialTextField-JJMaterialTextField";
+			target = 70DB31BF3F5776DA349DC8C9471BC44B /* JJMaterialTextField-JJMaterialTextField */;
+			targetProxy = 5800669E4F372E7805E5ADC5AD25B58B /* PBXContainerItemProxy */;
+		};
+		6005A346A0D2351D9D0FAF99B2375EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JJMaterialTextField;
+			target = 1A8D8FF8EAACA775C701B6B91D02FD8D /* JJMaterialTextField */;
+			targetProxy = A53048C068C330433AD67DA26AC4B840 /* PBXContainerItemProxy */;
+		};
+		D7AFA25290D0A7693F2673A6F8AC0F15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAOverlay;
+			target = 121E7065D5A5FFD0DB86AAE9E39567F8 /* TAOverlay */;
+			targetProxy = 638B6CA3A7EF67434C566EDB1244CD92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DF84FFC68E091BCD7AAD234860DEBA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9901631A9E448E1A48531C66DEE8DFE /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JJMaterialTextField/JJMaterialTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1221686BB1BCBD039C712F4EB8925472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9901631A9E448E1A48531C66DEE8DFE /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JJMaterialTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1CA69796EFDA1363846713B1AE19CF6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAEBA09F5E39F00E21F5202ABDC0122 /* Pods-My Chem Lab.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		333CA5864BD1E9A9B64973AFBA6062F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9901631A9E448E1A48531C66DEE8DFE /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JJMaterialTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5ACA2214E6195B6DCA299F4E95F72ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9901631A9E448E1A48531C66DEE8DFE /* JJMaterialTextField.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JJMaterialTextField/JJMaterialTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BAF0AF5963F1D4C6CC4820A05D520520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A633D784892006EB4929F7E649BB400 /* TAOverlay.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAOverlay/TAOverlay-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CED9DA84D376D3E1841AFD1BEAFC7BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A633D784892006EB4929F7E649BB400 /* TAOverlay.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TAOverlay/TAOverlay-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E150FE5143070176101A777D472A9A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36734F07688BF120BD381223DF9BD239 /* Pods-My Chem Lab.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0492C43F73B37645228F12C9E10D89F3 /* Build configuration list for PBXNativeTarget "JJMaterialTextField-JJMaterialTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1221686BB1BCBD039C712F4EB8925472 /* Debug */,
+				333CA5864BD1E9A9B64973AFBA6062F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AC74BFA7AD568D25B213CA9E6D64D3 /* Build configuration list for PBXNativeTarget "JJMaterialTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACA2214E6195B6DCA299F4E95F72ED5 /* Debug */,
+				0DF84FFC68E091BCD7AAD234860DEBA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		213D61F2E5527E0FDC93D27813F907FA /* Build configuration list for PBXNativeTarget "Pods-My Chem Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA69796EFDA1363846713B1AE19CF6B /* Debug */,
+				E150FE5143070176101A777D472A9A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51600B54F71E27048CE2512AD98C7467 /* Build configuration list for PBXNativeTarget "TAOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED9DA84D376D3E1841AFD1BEAFC7BB2 /* Debug */,
+				BAF0AF5963F1D4C6CC4820A05D520520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
