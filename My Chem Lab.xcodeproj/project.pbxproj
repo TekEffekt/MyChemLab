@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9FB4E3F81491E3F4BA027CE /* libPods-My Chem Lab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5400BD4640391EC16E4FA0DE /* libPods-My Chem Lab.a */; };
 		B633EC101BD7831800F755A0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633EC0F1BD7831800F755A0 /* CardView.swift */; };
 		B633EC121BD95EFF00F755A0 /* SimulationOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633EC111BD95EFF00F755A0 /* SimulationOptionCell.swift */; };
 		B64802711BD4301600BB641D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802701BD4301600BB641D /* AppDelegate.swift */; };
@@ -22,10 +23,13 @@
 		B64802AC1BD4BE3700BB641D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802AB1BD4BE3700BB641D /* ProfileViewController.swift */; };
 		B6AA106E1BDC647400141481 /* SubmitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA106D1BDC647400141481 /* SubmitTableViewCell.swift */; };
 		B6AA10701BDC970F00141481 /* WaitOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA106F1BDC970F00141481 /* WaitOverlayViewController.swift */; };
+		B6AA107C1BDCCD9D00141481 /* UIView+Glow.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA107B1BDCCD9D00141481 /* UIView+Glow.m */; };
 		B6D0FB131BDB4C9E003AA2D5 /* SimulationInputsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0FB121BDB4C9E003AA2D5 /* SimulationInputsViewController.swift */; };
 		B6D0FB151BDB529F003AA2D5 /* InputsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0FB141BDB529F003AA2D5 /* InputsTableViewCell.swift */; };
 		B6D0FB171BDB60B9003AA2D5 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0FB161BDB60B9003AA2D5 /* Simulation.swift */; };
 		B6D0FB191BDB61C2003AA2D5 /* SimulationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0FB181BDB61C2003AA2D5 /* SimulationInfo.swift */; };
+		B6E196491BDE3D4B0094CDD2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E196481BDE3D4B0094CDD2 /* LoginViewController.swift */; };
+		B6E1964B1BDE450E0094CDD2 /* LoginVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E1964A1BDE450E0094CDD2 /* LoginVerification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16FE39407FCE9F9ACFDA38F6 /* Pods-My Chem Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Chem Lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Chem Lab/Pods-My Chem Lab.debug.xcconfig"; sourceTree = "<group>"; };
+		5400BD4640391EC16E4FA0DE /* libPods-My Chem Lab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-My Chem Lab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B633EC0F1BD7831800F755A0 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Views/CardView.swift; sourceTree = "<group>"; };
 		B633EC111BD95EFF00F755A0 /* SimulationOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulationOptionCell.swift; path = Views/SimulationOptionCell.swift; sourceTree = "<group>"; };
 		B648026D1BD4301600BB641D /* My Chem Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Chem Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,10 +73,16 @@
 		B64802AB1BD4BE3700BB641D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ViewController/ProfileViewController.swift; sourceTree = "<group>"; };
 		B6AA106D1BDC647400141481 /* SubmitTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitTableViewCell.swift; path = Views/SubmitTableViewCell.swift; sourceTree = "<group>"; };
 		B6AA106F1BDC970F00141481 /* WaitOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WaitOverlayViewController.swift; path = ViewController/WaitOverlayViewController.swift; sourceTree = "<group>"; };
+		B6AA10791BDCCD9D00141481 /* My Chem Lab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Chem Lab-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6AA107A1BDCCD9D00141481 /* UIView+Glow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Glow.h"; sourceTree = "<group>"; };
+		B6AA107B1BDCCD9D00141481 /* UIView+Glow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Glow.m"; sourceTree = "<group>"; };
 		B6D0FB121BDB4C9E003AA2D5 /* SimulationInputsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulationInputsViewController.swift; path = ViewController/SimulationInputsViewController.swift; sourceTree = "<group>"; };
 		B6D0FB141BDB529F003AA2D5 /* InputsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputsTableViewCell.swift; path = Views/InputsTableViewCell.swift; sourceTree = "<group>"; };
 		B6D0FB161BDB60B9003AA2D5 /* Simulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Simulation.swift; path = Model/Simulation.swift; sourceTree = "<group>"; };
 		B6D0FB181BDB61C2003AA2D5 /* SimulationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulationInfo.swift; path = Model/SimulationInfo.swift; sourceTree = "<group>"; };
+		B6E196481BDE3D4B0094CDD2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewController/LoginViewController.swift; sourceTree = "<group>"; };
+		B6E1964A1BDE450E0094CDD2 /* LoginVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVerification.swift; sourceTree = "<group>"; };
+		CBE206D6F3C5EE2B51BB719C /* Pods-My Chem Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Chem Lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Chem Lab/Pods-My Chem Lab.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FB4E3F81491E3F4BA027CE /* libPods-My Chem Lab.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +111,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		331D0B95A14EBA6C9DB00110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5400BD4640391EC16E4FA0DE /* libPods-My Chem Lab.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2312A3BEA579518F2CA1D2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16FE39407FCE9F9ACFDA38F6 /* Pods-My Chem Lab.debug.xcconfig */,
+				CBE206D6F3C5EE2B51BB719C /* Pods-My Chem Lab.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B64802641BD4301600BB641D = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +135,8 @@
 				B64802841BD4301600BB641D /* My Chem LabTests */,
 				B648028F1BD4301600BB641D /* My Chem LabUITests */,
 				B648026E1BD4301600BB641D /* Products */,
+				A2312A3BEA579518F2CA1D2A /* Pods */,
+				331D0B95A14EBA6C9DB00110 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +155,7 @@
 			children = (
 				B64802701BD4301600BB641D /* AppDelegate.swift */,
 				B64802741BD4301600BB641D /* Main.storyboard */,
+				B6AA10791BDCCD9D00141481 /* My Chem Lab-Bridging-Header.h */,
 				B64802A41BD4B04E00BB641D /* Model */,
 				B64802A11BD4AC4A00BB641D /* Views */,
 				B64802A01BD4AC4300BB641D /* View Controllers */,
@@ -154,6 +187,7 @@
 		B64802A01BD4AC4300BB641D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B6E196481BDE3D4B0094CDD2 /* LoginViewController.swift */,
 				B6AA106F1BDC970F00141481 /* WaitOverlayViewController.swift */,
 				B6D0FB121BDB4C9E003AA2D5 /* SimulationInputsViewController.swift */,
 				B648029E1BD4A7C900BB641D /* MedalsViewController.swift */,
@@ -166,6 +200,8 @@
 		B64802A11BD4AC4A00BB641D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B6AA107A1BDCCD9D00141481 /* UIView+Glow.h */,
+				B6AA107B1BDCCD9D00141481 /* UIView+Glow.m */,
 				B6AA106D1BDC647400141481 /* SubmitTableViewCell.swift */,
 				B633EC0F1BD7831800F755A0 /* CardView.swift */,
 				B64802A21BD4AC6D00BB641D /* MedalCell.swift */,
@@ -178,6 +214,7 @@
 		B64802A41BD4B04E00BB641D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B6E1964A1BDE450E0094CDD2 /* LoginVerification.swift */,
 				B64802A71BD4B0B500BB641D /* MedalStruct.swift */,
 				B6D0FB161BDB60B9003AA2D5 /* Simulation.swift */,
 				B6D0FB181BDB61C2003AA2D5 /* SimulationInfo.swift */,
@@ -192,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B64802951BD4301700BB641D /* Build configuration list for PBXNativeTarget "My Chem Lab" */;
 			buildPhases = (
+				0EDE33C831A0807B8006A790 /* Check Pods Manifest.lock */,
 				B64802691BD4301600BB641D /* Sources */,
 				B648026A1BD4301600BB641D /* Frameworks */,
 				B648026B1BD4301600BB641D /* Resources */,
+				65CF07E7968C6D778D1684FC /* Embed Pods Frameworks */,
+				6D190ADD98E101BDE1C89604 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,6 +351,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EDE33C831A0807B8006A790 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65CF07E7968C6D778D1684FC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Chem Lab/Pods-My Chem Lab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D190ADD98E101BDE1C89604 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Chem Lab/Pods-My Chem Lab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B64802691BD4301600BB641D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -321,6 +409,7 @@
 				B64802AC1BD4BE3700BB641D /* ProfileViewController.swift in Sources */,
 				B6D0FB171BDB60B9003AA2D5 /* Simulation.swift in Sources */,
 				B6AA106E1BDC647400141481 /* SubmitTableViewCell.swift in Sources */,
+				B6E1964B1BDE450E0094CDD2 /* LoginVerification.swift in Sources */,
 				B64802AA1BD4BD9900BB641D /* MyLabViewController.swift in Sources */,
 				B6D0FB131BDB4C9E003AA2D5 /* SimulationInputsViewController.swift in Sources */,
 				B633EC121BD95EFF00F755A0 /* SimulationOptionCell.swift in Sources */,
@@ -328,6 +417,8 @@
 				B648029F1BD4A7C900BB641D /* MedalsViewController.swift in Sources */,
 				B6AA10701BDC970F00141481 /* WaitOverlayViewController.swift in Sources */,
 				B64802A31BD4AC6D00BB641D /* MedalCell.swift in Sources */,
+				B6E196491BDE3D4B0094CDD2 /* LoginViewController.swift in Sources */,
+				B6AA107C1BDCCD9D00141481 /* UIView+Glow.m in Sources */,
 				B6D0FB151BDB529F003AA2D5 /* InputsTableViewCell.swift in Sources */,
 				B64802711BD4301600BB641D /* AppDelegate.swift in Sources */,
 			);
@@ -467,6 +558,7 @@
 		};
 		B64802961BD4301700BB641D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FE39407FCE9F9ACFDA38F6 /* Pods-My Chem Lab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -475,7 +567,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.uwp.My-Chem-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "My Chem Lab/My Chem Lab-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,6 +576,7 @@
 		};
 		B64802971BD4301700BB641D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBE206D6F3C5EE2B51BB719C /* Pods-My Chem Lab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -492,7 +585,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.uwp.My-Chem-Lab";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "My Chem Lab/My Chem Lab-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

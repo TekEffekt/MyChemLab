@@ -12,15 +12,33 @@ class MyLabViewController: UIViewController, UITableViewDataSource, UITableViewD
 {
     // MARK: Properties
     @IBOutlet weak var simulationOptionTableView: UITableView!
+    let blackness:UIView = UIView()
     
     // MARK: Initializaiton
     override func viewDidLoad() {
         self.simulationOptionTableView.delegate = self
         self.simulationOptionTableView.dataSource = self
+        self.navigationController!.navigationBarHidden = false
+        
+        self.blackness.frame = CGRectMake(0, 0, self.view.frame.width,
+            self.navigationController!.view.frame.height + self.view.frame.height)
+        self.blackness.backgroundColor = UIColor.blackColor()
+        self.navigationController!.view.addSubview(blackness)
     }
     
     override func viewWillAppear(animated: Bool) {
         setupNavBar()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        if let _ = blackness.superview
+        {
+            UIView.animateWithDuration(1.0, animations: { () -> Void in
+                self.blackness.alpha = 0.0
+                }) { (Bool) -> Void in
+                    self.blackness.removeFromSuperview()
+            }
+        }
     }
     
     func setupNavBar()

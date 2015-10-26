@@ -100,7 +100,10 @@ class SimulationInputsViewController: UIViewController, UITableViewDelegate, UIT
     // MARK: Navigation
     @IBAction func closeController(sender: UIBarButtonItem)
     {
-        waitOverlay!.dismissViewControllerAnimated(false, completion: nil)
+        if let _ = waitOverlay
+        {
+            waitOverlay!.dismissViewControllerAnimated(false, completion: nil)
+        }
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
