@@ -16,6 +16,7 @@ class Simulation
     let minMaxValues:[String:(Int,Int)]
     
     var valuesForInputs:[String:Int]
+    var result:[String:Float]?
     
     init(withSimulationName name:String)
     {
@@ -39,6 +40,38 @@ class Simulation
     func updateInputWithValue(value value:Int, andInputName name:String)
     {
         valuesForInputs[name] = value
+    }
+    
+    func computeResult()
+    {
+        let simulation = TheSimulation()
+        let oil = Float(valuesForInputs["Oil"]!)
+        let methanol = Float(valuesForInputs["Methanol"]!)
+        let cataylyst = Float(valuesForInputs["Catalyst"]!)
+        let temperature = Float(valuesForInputs["Temperature"]!)
+        let mixingLength = Float(valuesForInputs["Mixing Length"]!)
+        let settlingTime = Float(valuesForInputs["Settling Time"]!)
+        
+        simulation.initDataWith(oil, methanol: methanol, catalyst: cataylyst, temperature: temperature, mixingLength: mixingLength, andSettlingTime: settlingTime)
+        simulation.setup()
+        
+        var simulationNotDone = true
+        
+        while(simulationNotDone)
+        {
+            simulationNotDone = simulation.loop()
+            print("Simulating")
+        }
+        
+        print(simulation.Convout)
+        
+        result = ["TGout": simulation.TGout, "DGout": simulation.DGout, "Eout": simulation.Eout, "Convout": simulation.Convout * 100]
+        print(result)
+    }
+    
+    func getResult() -> [String:Float]
+    {
+        return result!
     }
     
 }

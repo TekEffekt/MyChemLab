@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Charts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JJMaterialTextField-JJMaterialTextField.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>121E7065D5A5FFD0DB86AAE9E39567F8</key>
+		<key>24090FBCEF7A50AE384678B5C071804B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1A8D8FF8EAACA775C701B6B91D02FD8D</key>
+		<key>2A8868BEA34193B53CAD153AB40B54D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>70DB31BF3F5776DA349DC8C9471BC44B</key>
+		<key>9C9E7A44F3A8B6CF534DE44072448F47</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9C2D23051EC9AA6F740F8C5656C7AE5A</key>
+		<key>CFDA42539BC21BD746B225CF42AEAEA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E3D67A4505FC562A32EA14F4EC69DA3C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

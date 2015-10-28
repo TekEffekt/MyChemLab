@@ -26,7 +26,7 @@ import UIKit
 
 class CardView: UIView {
 
-    var radius: CGFloat = 8
+    var radius: CGFloat = 4
 
     override func layoutSubviews() {
         layer.cornerRadius = radius

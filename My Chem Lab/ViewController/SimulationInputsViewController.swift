@@ -76,7 +76,7 @@ class SimulationInputsViewController: UIViewController, UITableViewDelegate, UIT
         }
     }
     
-    // MARK: Input Gathering
+    // MARK: Simulation
     
     func sliderValueChanged(withInput inputName:String, newValue value:Int)
     {
@@ -94,7 +94,21 @@ class SimulationInputsViewController: UIViewController, UITableViewDelegate, UIT
         self.definesPresentationContext = true;
         waitOverlay!.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
         
-        self.presentViewController(waitOverlay!, animated: false, completion: nil)
+        self.presentViewController(waitOverlay!, animated: false) { () -> Void in
+            self.createSimulationThread()
+        }
+    }
+    
+    func createSimulationThread()
+    {
+        let queue = NSOperationQueue()
+        queue.addOperationWithBlock { () -> Void in
+            self.simulation!.computeResult()
+            
+            NSOperationQueue.mainQueue().addOperationWithBlock({ () -> Void in
+                self.performSegueWithIdentifier("showSimulationResults", sender: self)
+            })
+        }
     }
     
     // MARK: Navigation
@@ -105,6 +119,12 @@ class SimulationInputsViewController: UIViewController, UITableViewDelegate, UIT
             waitOverlay!.dismissViewControllerAnimated(false, completion: nil)
         }
         self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    {
+        let resultsController = segue.destinationViewController as! ResultsViewController
+        resultsController.simulationResults = simulation!.getResult()
     }
     
 }

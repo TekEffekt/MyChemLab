@@ -6,6 +6,8 @@
 target 'My Chem Lab' do
 pod "JJMaterialTextField"
 pod 'TAOverlay'
+pod 'Charts'
+use_frameworks!
 end
 
 target 'My Chem LabTests' do

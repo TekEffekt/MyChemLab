@@ -82,3 +82,14 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-My Chem Lab/Charts.framework"
+  install_framework "Pods-My Chem Lab/JJMaterialTextField.framework"
+  install_framework "Pods-My Chem Lab/TAOverlay.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-My Chem Lab/Charts.framework"
+  install_framework "Pods-My Chem Lab/JJMaterialTextField.framework"
+  install_framework "Pods-My Chem Lab/TAOverlay.framework"
+fi

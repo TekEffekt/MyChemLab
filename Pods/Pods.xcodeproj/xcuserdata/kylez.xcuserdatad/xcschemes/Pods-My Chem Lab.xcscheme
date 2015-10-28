@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3FFA71BA1987F36C84F1C045'
+               BlueprintIdentifier = 'CC33022D8B29D1E1470D7629'
                BlueprintName = 'Pods-My Chem Lab'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-My Chem Lab.a'>
+               BuildableName = 'Pods_My_Chem_Lab.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
