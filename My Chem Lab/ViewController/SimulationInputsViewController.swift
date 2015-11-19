@@ -127,4 +127,12 @@ class SimulationInputsViewController: UIViewController, UITableViewDelegate, UIT
         resultsController.simulationResults = simulation!.getResult()
     }
     
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        if let _ = waitOverlay
+        {
+            waitOverlay!.dismissViewControllerAnimated(false, completion: nil)
+        }
+    }
+    
 }

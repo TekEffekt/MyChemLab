@@ -12,7 +12,7 @@ class SimulationInfo: NSObject
 {
     static let simulationNames = ["Biodiesel", "Water","Hydrocholoric Acid","My Plasma"]
     static let inputs = ["Biodiesel":["Methanol","Temperature","Catalyst","Oil","Mixing Length","Settling Time"]]
-    static let outputs = ["Biodiesel":["Biodiesel","Conversion Ratio"]]
+    static let outputs = ["Biodiesel":["Eout","Convout", "DGout", "TGout","MGout","Mout"]]
     
     static let minMaxValues = ["Biodiesel":["Methanol":(0,50),"Temperature":(20,60),"Catalyst":(1,10),"Oil":(5,15),"Mixing Length":(0,30),"Settling Time":(1,30)]]
     

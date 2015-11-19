@@ -8,6 +8,7 @@
 
 import UIKit
 import AudioToolbox
+import Charts
 
 class LoginViewController: UIViewController, UITextFieldDelegate
 {

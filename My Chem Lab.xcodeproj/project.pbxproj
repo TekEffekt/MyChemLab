@@ -23,8 +23,6 @@
 		B64802A81BD4B0B500BB641D /* MedalStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802A71BD4B0B500BB641D /* MedalStruct.swift */; };
 		B64802AA1BD4BD9900BB641D /* MyLabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802A91BD4BD9900BB641D /* MyLabViewController.swift */; };
 		B64802AC1BD4BE3700BB641D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802AB1BD4BE3700BB641D /* ProfileViewController.swift */; };
-		B686EDF21BE0B68B00C7E987 /* PieChartCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B686EDF11BE0B68B00C7E987 /* PieChartCard.swift */; };
-		B686EDF61BE0CD4A00C7E987 /* LineChartCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B686EDF51BE0CD4A00C7E987 /* LineChartCard.swift */; };
 		B6AA106E1BDC647400141481 /* SubmitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA106D1BDC647400141481 /* SubmitTableViewCell.swift */; };
 		B6AA10701BDC970F00141481 /* WaitOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA106F1BDC970F00141481 /* WaitOverlayViewController.swift */; };
 		B6AA107C1BDCCD9D00141481 /* UIView+Glow.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AA107B1BDCCD9D00141481 /* UIView+Glow.m */; };
@@ -32,8 +30,13 @@
 		B6D0FB151BDB529F003AA2D5 /* InputsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0FB141BDB529F003AA2D5 /* InputsTableViewCell.swift */; };
 		B6D0FB171BDB60B9003AA2D5 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0FB161BDB60B9003AA2D5 /* Simulation.swift */; };
 		B6D0FB191BDB61C2003AA2D5 /* SimulationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0FB181BDB61C2003AA2D5 /* SimulationInfo.swift */; };
+		B6D814321BFDA65200E315AB /* CustomBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D814311BFDA65200E315AB /* CustomBarChartView.swift */; };
 		B6E196491BDE3D4B0094CDD2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E196481BDE3D4B0094CDD2 /* LoginViewController.swift */; };
 		B6E1964B1BDE450E0094CDD2 /* LoginVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E1964A1BDE450E0094CDD2 /* LoginVerification.swift */; };
+		B6F4F50A1BF065C400B928F8 /* ChartCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4F5091BF065C400B928F8 /* ChartCardCollectionViewCell.swift */; };
+		B6F4F50F1BF072E300B928F8 /* CustomPieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4F50E1BF072E300B928F8 /* CustomPieView.swift */; };
+		B6F4F5121BF318D500B928F8 /* ChartTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4F5111BF318D500B928F8 /* ChartTypes.swift */; };
+		B6F4F5141BF31A7000B928F8 /* CustomLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F4F5131BF31A7000B928F8 /* CustomLineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,8 +81,6 @@
 		B64802A71BD4B0B500BB641D /* MedalStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedalStruct.swift; path = Model/MedalStruct.swift; sourceTree = "<group>"; };
 		B64802A91BD4BD9900BB641D /* MyLabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyLabViewController.swift; path = ViewController/MyLabViewController.swift; sourceTree = "<group>"; };
 		B64802AB1BD4BE3700BB641D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ViewController/ProfileViewController.swift; sourceTree = "<group>"; };
-		B686EDF11BE0B68B00C7E987 /* PieChartCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChartCard.swift; path = Views/PieChartCard.swift; sourceTree = "<group>"; };
-		B686EDF51BE0CD4A00C7E987 /* LineChartCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineChartCard.swift; path = Views/LineChartCard.swift; sourceTree = "<group>"; };
 		B6AA106D1BDC647400141481 /* SubmitTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitTableViewCell.swift; path = Views/SubmitTableViewCell.swift; sourceTree = "<group>"; };
 		B6AA106F1BDC970F00141481 /* WaitOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WaitOverlayViewController.swift; path = ViewController/WaitOverlayViewController.swift; sourceTree = "<group>"; };
 		B6AA10791BDCCD9D00141481 /* My Chem Lab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Chem Lab-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -89,8 +90,13 @@
 		B6D0FB141BDB529F003AA2D5 /* InputsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputsTableViewCell.swift; path = Views/InputsTableViewCell.swift; sourceTree = "<group>"; };
 		B6D0FB161BDB60B9003AA2D5 /* Simulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Simulation.swift; path = Model/Simulation.swift; sourceTree = "<group>"; };
 		B6D0FB181BDB61C2003AA2D5 /* SimulationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulationInfo.swift; path = Model/SimulationInfo.swift; sourceTree = "<group>"; };
+		B6D814311BFDA65200E315AB /* CustomBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBarChartView.swift; sourceTree = "<group>"; };
 		B6E196481BDE3D4B0094CDD2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewController/LoginViewController.swift; sourceTree = "<group>"; };
 		B6E1964A1BDE450E0094CDD2 /* LoginVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVerification.swift; sourceTree = "<group>"; };
+		B6F4F5091BF065C400B928F8 /* ChartCardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartCardCollectionViewCell.swift; path = Views/ChartCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6F4F50E1BF072E300B928F8 /* CustomPieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomPieView.swift; path = Views/CustomPieView.swift; sourceTree = "<group>"; };
+		B6F4F5111BF318D500B928F8 /* ChartTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartTypes.swift; path = Model/ChartTypes.swift; sourceTree = "<group>"; };
+		B6F4F5131BF31A7000B928F8 /* CustomLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomLineView.swift; path = Views/CustomLineView.swift; sourceTree = "<group>"; };
 		CBE206D6F3C5EE2B51BB719C /* Pods-My Chem Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Chem Lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Chem Lab/Pods-My Chem Lab.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -210,8 +216,7 @@
 		B64802A11BD4AC4A00BB641D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B686EDF11BE0B68B00C7E987 /* PieChartCard.swift */,
-				B686EDF51BE0CD4A00C7E987 /* LineChartCard.swift */,
+				B6F4F50B1BF06BE700B928F8 /* Charts */,
 				B6AA107A1BDCCD9D00141481 /* UIView+Glow.h */,
 				B6AA107B1BDCCD9D00141481 /* UIView+Glow.m */,
 				B6AA106D1BDC647400141481 /* SubmitTableViewCell.swift */,
@@ -234,6 +239,18 @@
 				B6D0FB181BDB61C2003AA2D5 /* SimulationInfo.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		B6F4F50B1BF06BE700B928F8 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				B6D814311BFDA65200E315AB /* CustomBarChartView.swift */,
+				B6F4F50E1BF072E300B928F8 /* CustomPieView.swift */,
+				B6F4F5131BF31A7000B928F8 /* CustomLineView.swift */,
+				B6F4F5111BF318D500B928F8 /* ChartTypes.swift */,
+				B6F4F5091BF065C400B928F8 /* ChartCardCollectionViewCell.swift */,
+			);
+			name = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,22 +437,25 @@
 			files = (
 				B6D0FB191BDB61C2003AA2D5 /* SimulationInfo.swift in Sources */,
 				B633EC101BD7831800F755A0 /* CardView.swift in Sources */,
-				B686EDF61BE0CD4A00C7E987 /* LineChartCard.swift in Sources */,
+				B6F4F50A1BF065C400B928F8 /* ChartCardCollectionViewCell.swift in Sources */,
 				B62F8D231BE04766009AC731 /* ResultsViewController.swift in Sources */,
 				B64802AC1BD4BE3700BB641D /* ProfileViewController.swift in Sources */,
 				B6D0FB171BDB60B9003AA2D5 /* Simulation.swift in Sources */,
 				B62F8D211BE02323009AC731 /* TheSimulation.m in Sources */,
 				B6AA106E1BDC647400141481 /* SubmitTableViewCell.swift in Sources */,
+				B6D814321BFDA65200E315AB /* CustomBarChartView.swift in Sources */,
 				B6E1964B1BDE450E0094CDD2 /* LoginVerification.swift in Sources */,
+				B6F4F50F1BF072E300B928F8 /* CustomPieView.swift in Sources */,
 				B64802AA1BD4BD9900BB641D /* MyLabViewController.swift in Sources */,
 				B6D0FB131BDB4C9E003AA2D5 /* SimulationInputsViewController.swift in Sources */,
+				B6F4F5141BF31A7000B928F8 /* CustomLineView.swift in Sources */,
 				B633EC121BD95EFF00F755A0 /* SimulationOptionCell.swift in Sources */,
 				B64802A81BD4B0B500BB641D /* MedalStruct.swift in Sources */,
 				B648029F1BD4A7C900BB641D /* MedalsViewController.swift in Sources */,
 				B6AA10701BDC970F00141481 /* WaitOverlayViewController.swift in Sources */,
-				B686EDF21BE0B68B00C7E987 /* PieChartCard.swift in Sources */,
 				B64802A31BD4AC6D00BB641D /* MedalCell.swift in Sources */,
 				B6E196491BDE3D4B0094CDD2 /* LoginViewController.swift in Sources */,
+				B6F4F5121BF318D500B928F8 /* ChartTypes.swift in Sources */,
 				B6AA107C1BDCCD9D00141481 /* UIView+Glow.m in Sources */,
 				B6D0FB151BDB529F003AA2D5 /* InputsTableViewCell.swift in Sources */,
 				B64802711BD4301600BB641D /* AppDelegate.swift in Sources */,

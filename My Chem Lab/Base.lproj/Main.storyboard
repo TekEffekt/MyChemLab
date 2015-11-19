@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6bj-iI-5Tz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uLT-K3-USN">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -245,12 +245,12 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="49.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPP-4f-Dfj">
-                                                    <rect key="frame" x="49" y="0.0" width="503" height="49.5"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPP-4f-Dfj">
+                                                    <rect key="frame" x="49" y="2" width="503" height="45"/>
                                                     <animations/>
                                                     <color key="backgroundColor" red="0.0" green="0.74509803919999995" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
-                                                    <state key="normal" title="Submit">
+                                                    <state key="normal" title="Simulate">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
@@ -266,11 +266,19 @@
                                             </subviews>
                                             <animations/>
                                             <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="oPP-4f-Dfj" secondAttribute="trailing" constant="41" id="7nT-1Z-wmn"/>
+                                                <constraint firstItem="oPP-4f-Dfj" firstAttribute="leading" secondItem="DV9-l9-aao" secondAttribute="leadingMargin" constant="41" id="3yv-Aa-Qmt"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="oPP-4f-Dfj" secondAttribute="bottom" constant="-8" id="DD7-ED-3DT"/>
-                                                <constraint firstItem="oPP-4f-Dfj" firstAttribute="leading" secondItem="DV9-l9-aao" secondAttribute="leadingMargin" constant="41" id="GEZ-zi-lHU"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="oPP-4f-Dfj" secondAttribute="trailing" constant="40" id="Qoc-PE-w6r"/>
+                                                <constraint firstItem="oPP-4f-Dfj" firstAttribute="top" secondItem="DV9-l9-aao" secondAttribute="topMargin" constant="-6" id="WCP-v8-QFU"/>
                                                 <constraint firstItem="oPP-4f-Dfj" firstAttribute="top" secondItem="DV9-l9-aao" secondAttribute="topMargin" constant="-8" id="i5I-EC-eDW"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="oPP-4f-Dfj" secondAttribute="bottom" constant="-5.5" id="uL2-4t-DJt"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="DD7-ED-3DT"/>
+                                                    <exclude reference="i5I-EC-eDW"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <animations/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -308,7 +316,7 @@
         <!--Results View Controller-->
         <scene sceneID="wRs-Dc-riO">
             <objects>
-                <viewController id="Fkg-qK-SMt" customClass="ResultsViewController" customModule="My_Chem_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BackToSimOptions" id="Fkg-qK-SMt" customClass="ResultsViewController" customModule="My_Chem_Lab" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pxl-Bb-TB6"/>
                         <viewControllerLayoutGuide type="bottom" id="sWA-aT-unZ"/>
@@ -317,10 +325,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7tY-9V-3nu">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7tY-9V-3nu">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="haQ-9F-KmN">
                                     <size key="itemSize" width="300" height="220"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -328,7 +336,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="pieChartCell" id="n8w-sY-Fbw" customClass="PieChartCard" customModule="My_Chem_Lab" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ChartCardCell" id="n8w-sY-Fbw" customClass="ChartCardCollectionViewCell" customModule="My_Chem_Lab" customModuleProvider="target">
                                         <rect key="frame" x="150" y="74" width="300" height="220"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -338,14 +346,14 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jJv-Uv-p3K">
                                                     <rect key="frame" x="8" y="8" width="284" height="204"/>
                                                     <animations/>
-                                                    <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </view>
                                             </subviews>
                                             <animations/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <animations/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="jJv-Uv-p3K" firstAttribute="leading" secondItem="n8w-sY-Fbw" secondAttribute="leadingMargin" id="3NL-zp-D88"/>
                                             <constraint firstItem="jJv-Uv-p3K" firstAttribute="centerY" secondItem="n8w-sY-Fbw" secondAttribute="centerY" id="A3T-1u-iZs"/>
@@ -358,41 +366,11 @@
                                             <outlet property="cardContainer" destination="jJv-Uv-p3K" id="Wgy-Za-MgH"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="lineChartCell" id="d55-7G-yUZ" customClass="LineChartCard" customModule="My_Chem_Lab" customModuleProvider="target">
-                                        <rect key="frame" x="150" y="304" width="300" height="220"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="220"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Msh-9i-xnp">
-                                                    <rect key="frame" x="8" y="8" width="284" height="204"/>
-                                                    <animations/>
-                                                    <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </view>
-                                            </subviews>
-                                            <animations/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <animations/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstItem="Msh-9i-xnp" firstAttribute="top" secondItem="d55-7G-yUZ" secondAttribute="topMargin" id="0u6-PU-yYz"/>
-                                            <constraint firstItem="Msh-9i-xnp" firstAttribute="leading" secondItem="d55-7G-yUZ" secondAttribute="leadingMargin" id="3lC-ve-odn"/>
-                                            <constraint firstItem="Msh-9i-xnp" firstAttribute="centerX" secondItem="d55-7G-yUZ" secondAttribute="centerX" id="N1A-6E-Idb"/>
-                                            <constraint firstItem="Msh-9i-xnp" firstAttribute="centerY" secondItem="d55-7G-yUZ" secondAttribute="centerY" id="PpX-EI-bWx"/>
-                                            <constraint firstItem="Msh-9i-xnp" firstAttribute="trailing" secondItem="d55-7G-yUZ" secondAttribute="trailingMargin" id="bVz-ft-TgB"/>
-                                            <constraint firstItem="Msh-9i-xnp" firstAttribute="bottom" secondItem="d55-7G-yUZ" secondAttribute="bottomMargin" id="e3U-cV-r3K"/>
-                                        </constraints>
-                                        <connections>
-                                            <outlet property="cardContainer" destination="Msh-9i-xnp" id="doq-Nl-buK"/>
-                                        </connections>
-                                    </collectionViewCell>
                                 </cells>
                             </collectionView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="sWA-aT-unZ" firstAttribute="top" secondItem="7tY-9V-3nu" secondAttribute="bottom" id="AgE-xB-S7b"/>
                             <constraint firstItem="7tY-9V-3nu" firstAttribute="leading" secondItem="PAZ-Rc-3gR" secondAttribute="leadingMargin" constant="-20" id="HcO-MY-A6W"/>
@@ -400,13 +378,16 @@
                             <constraint firstItem="7tY-9V-3nu" firstAttribute="top" secondItem="pxl-Bb-TB6" secondAttribute="bottom" id="XRW-bB-mqi"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="graphCollectionView" destination="7tY-9V-3nu" id="MnH-K1-7Qv"/>
+                        <segue destination="uLT-K3-USN" kind="showDetail" identifier="BackToSimOptions" id="cSz-cL-gLD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hvm-RX-adK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4250" y="-346"/>
+            <point key="canvasLocation" x="1904" y="238"/>
         </scene>
         <!--Medals-->
         <scene sceneID="tne-QT-ifu">
@@ -720,4 +701,7 @@
         <image name="minus" width="40" height="40"/>
         <image name="plus" width="40" height="40"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="cSz-cL-gLD"/>
+    </inferredMetricsTieBreakers>
 </document>
