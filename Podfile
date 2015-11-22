@@ -11,7 +11,7 @@ use_frameworks!
 end
 
 target 'My Chem LabTests' do
-
+pod "UINavigationBar+Addition"
 end
 
 target 'My Chem LabUITests' do

@@ -22,7 +22,7 @@ enum Colors
             case .LineChart:
                 return [UIColor(red:0.00, green:0.75, blue:0.23, alpha:1.0)]
             case .PieChart:
-                return [UIColor(red:1.00, green:0.25, blue:0.51, alpha:1.0), UIColor(red:1.00, green:0.34, blue:0.13, alpha:1.0)]
+                return [UIColor(red:0.11, green:0.73, blue:0.33, alpha:1.0), UIColor(red:0.83, green:0.18, blue:0.18, alpha:1.0)]
             case .BarChart:
                 return []
             default:

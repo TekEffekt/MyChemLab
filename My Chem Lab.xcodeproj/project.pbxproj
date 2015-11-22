@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6919A7ABF39E6B160D97FFEF /* Pods_My_Chem_Lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F7DE161DED6FDE689C665B /* Pods_My_Chem_Lab.framework */; };
+		694AC44A431592A7C202C894 /* libPods-My Chem LabTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA10A984D44F57AAB83449CB /* libPods-My Chem LabTests.a */; };
 		B62F8D211BE02323009AC731 /* TheSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = B62F8D201BE02323009AC731 /* TheSimulation.m */; };
 		B62F8D231BE04766009AC731 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62F8D221BE04766009AC731 /* ResultsViewController.swift */; };
+		B632C4321C01E08000D4B6CA /* UINavigationBar+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = B632C4311C01E08000D4B6CA /* UINavigationBar+Addition.m */; };
 		B633EC101BD7831800F755A0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633EC0F1BD7831800F755A0 /* CardView.swift */; };
 		B633EC121BD95EFF00F755A0 /* SimulationOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633EC111BD95EFF00F755A0 /* SimulationOptionCell.swift */; };
 		B636F9E01BFE97580003DA53 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B636F9DF1BFE97580003DA53 /* Colors.swift */; };
+		B636F9E61C01BE5E0003DA53 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B636F9E51C01BE5E0003DA53 /* PieChartViewController.swift */; };
 		B64802711BD4301600BB641D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802701BD4301600BB641D /* AppDelegate.swift */; };
 		B64802761BD4301600BB641D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64802741BD4301600BB641D /* Main.storyboard */; };
 		B64802781BD4301600BB641D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64802771BD4301600BB641D /* Assets.xcassets */; };
@@ -59,13 +62,17 @@
 
 /* Begin PBXFileReference section */
 		16FE39407FCE9F9ACFDA38F6 /* Pods-My Chem Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Chem Lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Chem Lab/Pods-My Chem Lab.debug.xcconfig"; sourceTree = "<group>"; };
+		9F7F06FD6EADAB05D4FA8C1C /* Pods-My Chem LabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Chem LabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Chem LabTests/Pods-My Chem LabTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9F7DE161DED6FDE689C665B /* Pods_My_Chem_Lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Chem_Lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62F8D1F1BE02323009AC731 /* TheSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheSimulation.h; sourceTree = "<group>"; };
 		B62F8D201BE02323009AC731 /* TheSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheSimulation.m; sourceTree = "<group>"; };
 		B62F8D221BE04766009AC731 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsViewController.swift; path = ViewController/ResultsViewController.swift; sourceTree = "<group>"; };
+		B632C4301C01E08000D4B6CA /* UINavigationBar+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Addition.h"; sourceTree = "<group>"; };
+		B632C4311C01E08000D4B6CA /* UINavigationBar+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Addition.m"; sourceTree = "<group>"; };
 		B633EC0F1BD7831800F755A0 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Views/CardView.swift; sourceTree = "<group>"; };
 		B633EC111BD95EFF00F755A0 /* SimulationOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulationOptionCell.swift; path = Views/SimulationOptionCell.swift; sourceTree = "<group>"; };
 		B636F9DF1BFE97580003DA53 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = Views/Colors.swift; sourceTree = "<group>"; };
+		B636F9E51C01BE5E0003DA53 /* PieChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChartViewController.swift; path = ViewController/PieChartViewController.swift; sourceTree = "<group>"; };
 		B648026D1BD4301600BB641D /* My Chem Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Chem Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64802701BD4301600BB641D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B64802751BD4301600BB641D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,7 +106,9 @@
 		B6F4F50E1BF072E300B928F8 /* CustomPieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomPieView.swift; path = Views/CustomPieView.swift; sourceTree = "<group>"; };
 		B6F4F5111BF318D500B928F8 /* ChartTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartTypes.swift; path = Model/ChartTypes.swift; sourceTree = "<group>"; };
 		B6F4F5131BF31A7000B928F8 /* CustomLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomLineView.swift; path = Views/CustomLineView.swift; sourceTree = "<group>"; };
+		BA10A984D44F57AAB83449CB /* libPods-My Chem LabTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-My Chem LabTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE206D6F3C5EE2B51BB719C /* Pods-My Chem Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Chem Lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Chem Lab/Pods-My Chem Lab.release.xcconfig"; sourceTree = "<group>"; };
+		F6C5E0D2F81314E6DFA1CE36 /* Pods-My Chem LabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Chem LabTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Chem LabTests/Pods-My Chem LabTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694AC44A431592A7C202C894 /* libPods-My Chem LabTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				A9F7DE161DED6FDE689C665B /* Pods_My_Chem_Lab.framework */,
+				BA10A984D44F57AAB83449CB /* libPods-My Chem LabTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,6 +152,8 @@
 			children = (
 				16FE39407FCE9F9ACFDA38F6 /* Pods-My Chem Lab.debug.xcconfig */,
 				CBE206D6F3C5EE2B51BB719C /* Pods-My Chem Lab.release.xcconfig */,
+				9F7F06FD6EADAB05D4FA8C1C /* Pods-My Chem LabTests.debug.xcconfig */,
+				F6C5E0D2F81314E6DFA1CE36 /* Pods-My Chem LabTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -204,6 +217,7 @@
 		B64802A01BD4AC4300BB641D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B636F9E51C01BE5E0003DA53 /* PieChartViewController.swift */,
 				B6E196481BDE3D4B0094CDD2 /* LoginViewController.swift */,
 				B6AA106F1BDC970F00141481 /* WaitOverlayViewController.swift */,
 				B6D0FB121BDB4C9E003AA2D5 /* SimulationInputsViewController.swift */,
@@ -227,6 +241,8 @@
 				B64802A21BD4AC6D00BB641D /* MedalCell.swift */,
 				B633EC111BD95EFF00F755A0 /* SimulationOptionCell.swift */,
 				B6D0FB141BDB529F003AA2D5 /* InputsTableViewCell.swift */,
+				B632C4301C01E08000D4B6CA /* UINavigationBar+Addition.h */,
+				B632C4311C01E08000D4B6CA /* UINavigationBar+Addition.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -283,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B64802981BD4301700BB641D /* Build configuration list for PBXNativeTarget "My Chem LabTests" */;
 			buildPhases = (
+				7377038B4CA6843DCF48122A /* Check Pods Manifest.lock */,
 				B648027D1BD4301600BB641D /* Sources */,
 				B648027E1BD4301600BB641D /* Frameworks */,
 				B648027F1BD4301600BB641D /* Resources */,
+				C77FD43294EC0F5395FF2CAC /* Embed Pods Frameworks */,
+				4BCE957E8539FBDA8A14ED01 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -401,6 +420,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		4BCE957E8539FBDA8A14ED01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Chem LabTests/Pods-My Chem LabTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		65CF07E7968C6D778D1684FC /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,6 +463,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Chem Lab/Pods-My Chem Lab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7377038B4CA6843DCF48122A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C77FD43294EC0F5395FF2CAC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Chem LabTests/Pods-My Chem LabTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -461,7 +525,9 @@
 				B6E196491BDE3D4B0094CDD2 /* LoginViewController.swift in Sources */,
 				B6F4F5121BF318D500B928F8 /* ChartTypes.swift in Sources */,
 				B6AA107C1BDCCD9D00141481 /* UIView+Glow.m in Sources */,
+				B632C4321C01E08000D4B6CA /* UINavigationBar+Addition.m in Sources */,
 				B6D0FB151BDB529F003AA2D5 /* InputsTableViewCell.swift in Sources */,
+				B636F9E61C01BE5E0003DA53 /* PieChartViewController.swift in Sources */,
 				B64802711BD4301600BB641D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -635,6 +701,7 @@
 		};
 		B64802991BD4301700BB641D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7F06FD6EADAB05D4FA8C1C /* Pods-My Chem LabTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "My Chem LabTests/Info.plist";
@@ -647,6 +714,7 @@
 		};
 		B648029A1BD4301700BB641D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C5E0D2F81314E6DFA1CE36 /* Pods-My Chem LabTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "My Chem LabTests/Info.plist";

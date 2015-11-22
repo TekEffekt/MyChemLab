@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let colorView = UIView()
         colorView.backgroundColor = UIColor(red:0.18, green:0.18, blue:0.18, alpha:1.0)
         UITableViewCell.appearance().selectedBackgroundView = colorView
-                
+        
         return true
     }
 

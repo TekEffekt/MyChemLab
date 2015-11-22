@@ -8,66 +8,29 @@
 
 import UIKit
 
-class ResultsViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout
+class ResultsViewController: UIViewController
 {
     // MARK: Properties
-    var simulationResults:[String: Float]?
-    @IBOutlet weak var graphCollectionView: UICollectionView!
+    @IBOutlet weak var chartContainer: UIView!
+    var simulationResults:[String:Float]?
     
     // MARK: Initialization
     override func viewDidLoad() {
-        print("\(simulationResults)")
-        graphCollectionView.dataSource = self
-        graphCollectionView.delegate = self
-        self.edgesForExtendedLayout = UIRectEdge.None
-        
+        print(self.chartContainer.subviews)
         self.navigationItem.hidesBackButton = true
     }
     
     override func viewWillAppear(animated: Bool) {
         let backToButton = UIBarButtonItem(title: "Restart", style: UIBarButtonItemStyle.Plain, target: self, action: "backToSimOptions")
         
-        self.navigationItem.rightBarButtonItem = backToButton
+        self.navigationItem.leftBarButtonItem = backToButton
         self.setupNavBar()
     }
     
     func setupNavBar()
     {
         self.navigationItem.title = "Results & Stats"
-    }
-    
-    // MARK: CollectionView Datasource
-    
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        
-        let cell = graphCollectionView.dequeueReusableCellWithReuseIdentifier("ChartCardCell", forIndexPath: indexPath) as! ChartCardCollectionViewCell
-        cell.simulationResults = simulationResults
-        
-        if indexPath.row == 0
-        {
-            cell.chartType = ChartTypes.EfficiencyPieChart
-        } else if indexPath.row == 1
-        {
-            cell.chartType = ChartTypes.PreviousSimsLineChart
-        } else
-        {
-            cell.chartType = ChartTypes.OutputsBarChart
-        }
-        
-        return cell
-    }
-    
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
-    }
-    
-    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-        return 1
-    }
-    
-    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        let width = self.view.frame.width - 30
-        return CGSizeMake(width, width * 0.7)
+        self.navigationController!.navigationBar.hideBottomHairline()
     }
     
     // MARK: Navigation

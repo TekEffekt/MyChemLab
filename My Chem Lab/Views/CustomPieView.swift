@@ -30,13 +30,16 @@ class CustomPieView: PieChartView
     {
         usePercentValuesEnabled = true
         descriptionText = ""
-        holeRadiusPercent = 0
-        holeTransparent = false
-        holeAlpha = 0
+//        holeTransparent = true
+//        holeAlpha = 1
+        holeRadiusPercent = 0.4
+        transparentCircleRadiusPercent = 0.45
+        holeColor = UIColor.clearColor()
         legend.position = ChartLegend.ChartLegendPosition.LeftOfChart
         legend.textColor = UIColor.whiteColor()
         legend.font = legend.font.fontWithSize(12)
         rotationEnabled = false
+        
         
         animate(xAxisDuration: 1.4, yAxisDuration: 1.4, easingOption: ChartEasingOption.EaseOutCirc)
     }
@@ -66,6 +69,7 @@ class CustomPieView: PieChartView
         let pieData = PieChartData(xVals: ["Biodiesel", "Waste"], dataSet: dataset)
         
         pieData.setValueTextColor(UIColor.whiteColor())
+        pieData.setValueFont(UIFont(name: "Helvetica Neue", size: 18.5))
         
         self.data = pieData
     }

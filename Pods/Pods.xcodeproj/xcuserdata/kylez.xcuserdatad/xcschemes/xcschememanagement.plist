@@ -24,7 +24,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-My Chem LabTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TAOverlay.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UINavigationBar+Addition.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,7 +57,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>B76DCA22376F700087A2872123ABC8E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>CFDA42539BC21BD746B225CF42AEAEA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2BBE92C063F874A27211D97886CBB5E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
