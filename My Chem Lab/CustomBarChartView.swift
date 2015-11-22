@@ -57,18 +57,18 @@ class CustomBarChartView: BarChartView
         var count = 0
         for (key,value) in self.simulationResults!
         {
-            count++;
-            yVals.append(BarChartDataEntry(value: Double(Int(value)), xIndex: count))
-            xVals.append(key)
+            if(!["Convout", "Eout"].contains(key))
+            {
+                yVals.append(BarChartDataEntry(value: Double(value), xIndex: count))
+                xVals.append(key)
+                count++;
+            }
         }
         
         let dataset = BarChartDataSet(yVals: yVals)
         dataset.colors = ChartColorTemplates.vordiplom()
         let outputData = BarChartData(xVals: xVals, dataSet: dataset)
         outputData.setDrawValues(false)
-        
-        print(yVals)
-        
         
         data = outputData
     }

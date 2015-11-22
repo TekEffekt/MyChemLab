@@ -12,6 +12,7 @@
 		B62F8D231BE04766009AC731 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62F8D221BE04766009AC731 /* ResultsViewController.swift */; };
 		B633EC101BD7831800F755A0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633EC0F1BD7831800F755A0 /* CardView.swift */; };
 		B633EC121BD95EFF00F755A0 /* SimulationOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633EC111BD95EFF00F755A0 /* SimulationOptionCell.swift */; };
+		B636F9E01BFE97580003DA53 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B636F9DF1BFE97580003DA53 /* Colors.swift */; };
 		B64802711BD4301600BB641D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64802701BD4301600BB641D /* AppDelegate.swift */; };
 		B64802761BD4301600BB641D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64802741BD4301600BB641D /* Main.storyboard */; };
 		B64802781BD4301600BB641D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64802771BD4301600BB641D /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 		B62F8D221BE04766009AC731 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsViewController.swift; path = ViewController/ResultsViewController.swift; sourceTree = "<group>"; };
 		B633EC0F1BD7831800F755A0 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Views/CardView.swift; sourceTree = "<group>"; };
 		B633EC111BD95EFF00F755A0 /* SimulationOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulationOptionCell.swift; path = Views/SimulationOptionCell.swift; sourceTree = "<group>"; };
+		B636F9DF1BFE97580003DA53 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = Views/Colors.swift; sourceTree = "<group>"; };
 		B648026D1BD4301600BB641D /* My Chem Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Chem Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64802701BD4301600BB641D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B64802751BD4301600BB641D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -172,7 +174,7 @@
 				B64802741BD4301600BB641D /* Main.storyboard */,
 				B6AA10791BDCCD9D00141481 /* My Chem Lab-Bridging-Header.h */,
 				B64802A41BD4B04E00BB641D /* Model */,
-				B64802A11BD4AC4A00BB641D /* Views */,
+				B64802A11BD4AC4A00BB641D /* View */,
 				B64802A01BD4AC4300BB641D /* View Controllers */,
 				B64802771BD4301600BB641D /* Assets.xcassets */,
 				B64802791BD4301600BB641D /* LaunchScreen.storyboard */,
@@ -213,19 +215,20 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
-		B64802A11BD4AC4A00BB641D /* Views */ = {
+		B64802A11BD4AC4A00BB641D /* View */ = {
 			isa = PBXGroup;
 			children = (
 				B6F4F50B1BF06BE700B928F8 /* Charts */,
 				B6AA107A1BDCCD9D00141481 /* UIView+Glow.h */,
 				B6AA107B1BDCCD9D00141481 /* UIView+Glow.m */,
+				B636F9DF1BFE97580003DA53 /* Colors.swift */,
 				B6AA106D1BDC647400141481 /* SubmitTableViewCell.swift */,
 				B633EC0F1BD7831800F755A0 /* CardView.swift */,
 				B64802A21BD4AC6D00BB641D /* MedalCell.swift */,
 				B633EC111BD95EFF00F755A0 /* SimulationOptionCell.swift */,
 				B6D0FB141BDB529F003AA2D5 /* InputsTableViewCell.swift */,
 			);
-			name = Views;
+			name = View;
 			sourceTree = "<group>";
 		};
 		B64802A41BD4B04E00BB641D /* Model */ = {
@@ -441,6 +444,7 @@
 				B62F8D231BE04766009AC731 /* ResultsViewController.swift in Sources */,
 				B64802AC1BD4BE3700BB641D /* ProfileViewController.swift in Sources */,
 				B6D0FB171BDB60B9003AA2D5 /* Simulation.swift in Sources */,
+				B636F9E01BFE97580003DA53 /* Colors.swift in Sources */,
 				B62F8D211BE02323009AC731 /* TheSimulation.m in Sources */,
 				B6AA106E1BDC647400141481 /* SubmitTableViewCell.swift in Sources */,
 				B6D814321BFDA65200E315AB /* CustomBarChartView.swift in Sources */,

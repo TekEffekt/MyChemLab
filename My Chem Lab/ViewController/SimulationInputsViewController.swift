@@ -76,6 +76,12 @@ class SimulationInputsViewController: UIViewController, UITableViewDelegate, UIT
         }
     }
     
+    func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        view.tintColor = UIColor.blackColor()
+        let header = view as! UITableViewHeaderFooterView
+        header.textLabel!.textColor = UIColor.whiteColor().colorWithAlphaComponent(0.8)
+    }
+    
     // MARK: Simulation
     
     func sliderValueChanged(withInput inputName:String, newValue value:Int)
@@ -104,10 +110,29 @@ class SimulationInputsViewController: UIViewController, UITableViewDelegate, UIT
         let queue = NSOperationQueue()
         queue.addOperationWithBlock { () -> Void in
             self.simulation!.computeResult()
+            self.saveSimulation()
             
             NSOperationQueue.mainQueue().addOperationWithBlock({ () -> Void in
                 self.performSegueWithIdentifier("showSimulationResults", sender: self)
             })
+        }
+    }
+    
+    func saveSimulation()
+    {
+        var prevSims = NSUserDefaults.standardUserDefaults().valueForKey("Previous Sim Values") as? [Double]
+        if let _ = prevSims
+        {
+            prevSims!.append(Double(self.simulation!.getResult()["Eout"]!))
+            if prevSims!.count > 5
+            {
+                prevSims!.removeAtIndex(0)
+            }
+            NSUserDefaults.standardUserDefaults().setValue(prevSims, forKey: "Previous Sim Values")
+        } else
+        {
+            var newArray = [Double(self.simulation!.getResult()["Eout"]!)]
+            NSUserDefaults.standardUserDefaults().setValue(newArray, forKey: "Previous Sim Values")
         }
     }
     

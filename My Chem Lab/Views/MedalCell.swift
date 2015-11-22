@@ -41,7 +41,7 @@ class MedalCell: UICollectionViewCell
         {
             greyness = UIView(frame: CGRectMake(-20, 0, self.frame.width+20, self.frame.height))
             greyness!.alpha = 0.8
-            greyness!.backgroundColor = UIColor.whiteColor()
+            greyness!.backgroundColor = UIColor(red:0.07, green:0.07, blue:0.08, alpha:1.0)
             
             medalImage.addSubview(greyness!)
         }

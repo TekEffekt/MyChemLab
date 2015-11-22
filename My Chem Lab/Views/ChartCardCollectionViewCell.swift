@@ -11,24 +11,38 @@ import Charts
 
 class ChartCardCollectionViewCell: UICollectionViewCell
 {
+    @IBOutlet weak var chartTitle: UILabel!
+    @IBOutlet weak var chartContainer: UIView!
     @IBOutlet weak var cardContainer: UIView!
     var chartView:ChartViewBase?
     var simulationResults:[String: Float]?
     var chartType:ChartTypes = ChartTypes.EfficiencyPieChart
+    var card:CardView?
     
     override func drawRect(rect: CGRect) {
         super.drawRect(rect)
         
         self.addCard()
         setupChartView()
+        
+        chartTitle.text = chartType.rawValue
     }
     
     func addCard()
     {
-        let card = CardView(frame: cardContainer.frame)
-        card.backgroundColor = UIColor(red:0.98, green:0.98, blue:0.98, alpha:1.0)
+        card = CardView(frame: cardContainer.frame)
         
-        self.addSubview(card)
+        switch chartType
+        {
+        case .EfficiencyPieChart:
+            card!.backgroundColor = Colors.PieChart.getCardColor()
+        case .PreviousSimsLineChart:
+            card!.backgroundColor = Colors.LineChart.getCardColor()
+        case .OutputsBarChart:
+            card!.backgroundColor = Colors.BarChart.getCardColor()
+        }
+
+        insertSubview(card!, atIndex: 0)
     }
     
     func setupChartView()
@@ -36,14 +50,14 @@ class ChartCardCollectionViewCell: UICollectionViewCell
         switch chartType
         {
         case .EfficiencyPieChart:
-             chartView = CustomPieView(frame: cardContainer.frame, conversionRatio: Int(simulationResults!["Convout"]!))
+             chartView = CustomPieView(frame: CGRectMake(0, 0, chartContainer.frame.width, chartContainer.frame.height), conversionRatio: Int(simulationResults!["Convout"]!))
         case .PreviousSimsLineChart:
-            chartView = CustomLineView(frame: cardContainer.frame)
+            chartView = CustomLineView(frame: CGRectMake(0, 0, chartContainer.frame.width, chartContainer.frame.height))
         case .OutputsBarChart:
-            chartView = CustomBarChartView(frame: cardContainer.frame, simResults: simulationResults!)
+            chartView = CustomBarChartView(frame: CGRectMake(0, 0, chartContainer.frame.width, chartContainer.frame.height), simResults: simulationResults!)
         }
         
-        addSubview(chartView!)
+        chartContainer.addSubview(chartView!)
     }
     
 }

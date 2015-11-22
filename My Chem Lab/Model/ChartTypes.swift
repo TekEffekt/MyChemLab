@@ -8,9 +8,9 @@
 
 import Foundation
 
-enum ChartTypes
+enum ChartTypes:String
 {
-    case EfficiencyPieChart
-    case PreviousSimsLineChart
-    case OutputsBarChart
+    case EfficiencyPieChart = "The Efficiency Percentage"
+    case PreviousSimsLineChart = "Your Previous Outputs"
+    case OutputsBarChart = "Output Produced"
 }

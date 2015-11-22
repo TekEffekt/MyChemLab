@@ -33,7 +33,7 @@ class MyLabViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewDidAppear(animated: Bool) {
         if let _ = blackness.superview
         {
-            UIView.animateWithDuration(1.0, animations: { () -> Void in
+            UIView.animateWithDuration(0.5, animations: { () -> Void in
                 self.blackness.alpha = 0.0
                 }) { (Bool) -> Void in
                     self.blackness.removeFromSuperview()

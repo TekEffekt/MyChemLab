@@ -20,7 +20,6 @@ class CustomPieView: PieChartView
         self.conversionRatio = conversionRatio
         self.setupChart()
         self.addDataToChart()
-        print("Setting up chart")
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -35,11 +34,9 @@ class CustomPieView: PieChartView
         holeTransparent = false
         holeAlpha = 0
         legend.position = ChartLegend.ChartLegendPosition.LeftOfChart
-        legend.textColor = UIColor.blackColor()
+        legend.textColor = UIColor.whiteColor()
         legend.font = legend.font.fontWithSize(12)
         rotationEnabled = false
-        
-        
         
         animate(xAxisDuration: 1.4, yAxisDuration: 1.4, easingOption: ChartEasingOption.EaseOutCirc)
     }
@@ -57,7 +54,7 @@ class CustomPieView: PieChartView
         
         let dataset = PieChartDataSet(yVals: yVals)
         dataset.sliceSpace = 2.0
-        dataset.colors = ChartColorTemplates.vordiplom()
+        dataset.colors = Colors.PieChart.getChartColors()!
         dataset.label = ""
 
         let formatter = NSNumberFormatter()
@@ -68,7 +65,7 @@ class CustomPieView: PieChartView
         
         let pieData = PieChartData(xVals: ["Biodiesel", "Waste"], dataSet: dataset)
         
-        pieData.setValueTextColor(UIColor.blackColor())
+        pieData.setValueTextColor(UIColor.whiteColor())
         
         self.data = pieData
     }

@@ -60,13 +60,10 @@ class Simulation
         while(simulationNotDone)
         {
             simulationNotDone = simulation.loop()
-            print("Simulating")
         }
         
-        print(simulation.Convout)
         
         result = ["TGout": simulation.TGout, "DGout": simulation.DGout, "Eout": simulation.Eout, "Convout": simulation.Convout * 100, "MGout": simulation.MGout, "Mout": simulation.Mout]
-        print(result)
     }
     
     func getResult() -> [String:Float]

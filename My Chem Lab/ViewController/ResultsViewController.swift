@@ -25,9 +25,15 @@ class ResultsViewController: UIViewController, UICollectionViewDataSource, UICol
     }
     
     override func viewWillAppear(animated: Bool) {
-        let backToButton = UIBarButtonItem(title: "Restart Sim", style: UIBarButtonItemStyle.Done, target: self, action: "backToSimOptions")
+        let backToButton = UIBarButtonItem(title: "Restart", style: UIBarButtonItemStyle.Plain, target: self, action: "backToSimOptions")
         
         self.navigationItem.rightBarButtonItem = backToButton
+        self.setupNavBar()
+    }
+    
+    func setupNavBar()
+    {
+        self.navigationItem.title = "Results & Stats"
     }
     
     // MARK: CollectionView Datasource
@@ -74,7 +80,7 @@ class ResultsViewController: UIViewController, UICollectionViewDataSource, UICol
         
         self.navigationController!.view.addSubview(transitionOveraly)
         
-        UIView.animateWithDuration(0.5, animations: { () -> Void in
+        UIView.animateWithDuration(0.3, animations: { () -> Void in
             transitionOveraly.alpha = 1.0
             }, completion: {(Bool) -> Void in
                 self.performSegueWithIdentifier("BackToSimOptions", sender: self)

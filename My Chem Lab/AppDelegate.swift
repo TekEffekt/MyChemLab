@@ -16,8 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        window!.tintColor = UIColor(red:0.00, green:0.75, blue:0.23, alpha:1.0)
+        window!.tintColor = Colors.TintColor.getColor()
         
+        let colorView = UIView()
+        colorView.backgroundColor = UIColor(red:0.18, green:0.18, blue:0.18, alpha:1.0)
+        UITableViewCell.appearance().selectedBackgroundView = colorView
+                
         return true
     }
 
